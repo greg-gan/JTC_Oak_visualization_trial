@@ -13,26 +13,17 @@
 
     const Graph = new ForceGraph3D(document.getElementById('3d-graph'))
         .jsonUrl('../datasets/trial2.json')
-        .nodeLabel('id')
         .nodeAutoColorBy('group')
-         .nodeLabel(node => `${node.user}: ${node.description}`)
-         .onNodeClick(node => window.open(`https://bl.ocks.org/${node.user}/${node.url}`, '_blank'))
-        .linkThreeObjectExtend(true)
-        .linkThreeObject(link => {
-          // extend link with text sprite
-          const sprite = new SpriteText(`${link.source} > ${link.target}`);
-          sprite.color = 'lightgrey';
-          sprite.textHeight = 1.5;
+        .onNodeClick(node => window.open(node.website))
+        .nodeThreeObject(node => {
+          const sprite = new SpriteText(node.id);
+          sprite.material.depthWrite = false; // make sprite background transparent
+          sprite.color = node.color;
+          sprite.textHeight = 4;
+          sprite.center.y = -1; // shift above node
           return sprite;
         })
-        .linkPositionUpdate((sprite, { start, end }) => {
-          const middlePos = Object.assign(...['x', 'y', 'z'].map(c => ({
-            [c]: start[c] + (end[c] - start[c]) / 2 // calc middle point
-          })));
-
-          // Position sprite
-          Object.assign(sprite.position, middlePos);
-        });
+        .nodeThreeObjectExtend(true);
 
     // Spread nodes a little wider
     Graph.d3Force('charge').strength(-120);
