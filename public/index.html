@@ -11,22 +11,53 @@
   <script type="module">
     import SpriteText from "https://esm.sh/three-spritetext";
 
-    const Graph = new ForceGraph3D(document.getElementById('3d-graph'))
+    const elem = document.getElementById('3d-graph');
+
+    const Graph = new ForceGraph3D(elem)
         .jsonUrl('../datasets/trial2.json')
+        .nodeLabel(node => `${node.user}: ${node.description}`)
+        .nodeLabel('text')
         .nodeAutoColorBy('group')
+   //     .nodeLabel('text') //scholar or #keyword or discipline
         .onNodeClick(node => window.open(node.website))
+
+       .nodeThreeObjectExtend(true)
+
+       .onNodeClick(node => {
+          // Aim at node from outside it
+          const distance = 40;
+          const distRatio = 1 + distance/Math.hypot(node.x, node.y, node.z);
+          const newPos = node.x || node.y || node.z
+            ? { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }
+            : { x: 0, y: 0, z: distance }; // special case if node is in (0,0,0)
+            
+      Graph.cameraPosition(
+            newPos, // new position
+            node, // lookAt ({ x, y, z })
+            3000  // ms transition duration
+          );
+       })
         .nodeThreeObject(node => {
           const sprite = new SpriteText(node.id);
           sprite.material.depthWrite = false; // make sprite background transparent
           sprite.color = node.color;
           sprite.textHeight = 4;
-          sprite.center.y = -1; // shift above node
+          sprite.center.y = -1.2; // shift above node
           return sprite;
         })
-        .nodeThreeObjectExtend(true);
 
-    // Spread nodes a little wider
+    Graph.cameraPosition(
+            newPos, // new position
+            node, // lookAt ({ x, y, z })
+            3000  // ms transition duration
+          );
+   //     .onNodeClick(node => window.open(node.website))
+
     Graph.d3Force('charge').strength(-120);
+
+
+      //.onNodeClick(node => if {(node.website) = "positive" open, null} else {result = (window.open(`https://jtc.uni-halle.de/`, '_blank'))}
+      //.onNodeClick(node => window.open(`https://jtc.uni-halle.de/`, '_blank'))
 
   </script>
 </body>
