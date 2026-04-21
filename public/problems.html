@@ -3,121 +3,57 @@
 
   <script src="//cdn.jsdelivr.net/npm/3d-force-graph"></script>
   <!--<script src="../../dist/3d-force-graph.js"></script>-->
+  
 </head>
 
 <body>
-  <div id="3d-graph"></div>
 
+  <style>
+:root {
+  --tp-base-background-color: hsla(230, 20%, 11%, 1.00);
+  --tp-base-shadow-color: hsla(0, 0%, 0%, 0.2);
+  --tp-button-background-color: hsla(230, 10%, 80%, 1.00);
+  --tp-button-background-color-active: hsla(230, 10%, 95%, 1.00);
+  --tp-button-background-color-focus: hsla(230, 10%, 90%, 1.00);
+  --tp-button-background-color-hover: hsla(230, 10%, 85%, 1.00);
+  --tp-button-foreground-color: hsla(230, 20%, 11%, 1.00);
+  --tp-container-background-color: hsla(230, 25%, 16%, 1.00);
+  --tp-container-background-color-active: hsla(230, 25%, 31%, 1.00);
+  --tp-container-background-color-focus: hsla(230, 25%, 26%, 1.00);
+  --tp-container-background-color-hover: hsla(230, 25%, 21%, 1.00);
+  --tp-container-foreground-color: hsla(230, 10%, 80%, 1.00);
+  --tp-groove-foreground-color: hsla(230, 20%, 8%, 1.00);
+  --tp-input-background-color: hsla(230, 20%, 8%, 1.00);
+  --tp-input-background-color-active: hsla(230, 28%, 23%, 1.00);
+  --tp-input-background-color-focus: hsla(230, 28%, 18%, 1.00);
+  --tp-input-background-color-hover: hsla(230, 20%, 13%, 1.00);
+  --tp-input-foreground-color: hsla(230, 10%, 80%, 1.00);
+  --tp-label-foreground-color: hsla(230, 12%, 48%, 1.00);
+  --tp-monitor-background-color: hsla(230, 20%, 8%, 1.00);
+  --tp-monitor-foreground-color: hsla(230, 12%, 48%, 1.00);
+}
+</style>
+  <div id="3d-graph"></div>
+   
   <script type="module">
     import SpriteText from "https://esm.sh/three-spritetext";
     import * as THREE from 'https://esm.sh/three';
-    import { GUI } from 'https://esm.sh/dat.gui';
+    import {Pane} from 'https://cdn.jsdelivr.net/npm/tweakpane@4.0.5/dist/tweakpane.min.js';
 
-    // controls
-    const controls = { 'Community': 'type'};
-    const gui = new GUI()
-
-  function addGui(gui, name, value, callback, isColor, min, max ) {
-  // ... stays the same
-  };
-
-      var object1 = {
-        type1_boolean: false,
-        type2_string: 'string',
-        type3_number: 0,
-        type4_function: function () {
-          alert('This is a function.');
-          obj = { size: 'Medium', speed: 1 }
-        }
-      };
-
-      var object2 = {
-        string1: 'keywords',
-        string2: 'scholars'
-      };
-
-      var folder1 = gui.addFolder('Structures');
-      folder1.add(object1, 'type3_number', -5, 5);
-      folder1.add(object1, 'type4_function');
-
-      var label = {Name: 'search'};
-        gui.add(label, 'Name')
-        gui.add(controls, 'Community', ['Social sciences', 'Natural sciences', 'Applied Research', 'Artistic Researc'])
-            .onChange(label => graph && graph.dagNodeFilter('type'));
-
-      // collapse folder1
-      folder1.close();
-
-      var folder2 = gui.addFolder('Keywords');
-      folder2.add(object2, 'string1', {
-        'key1': 'scholars',
-        'key2': 'discipline',
-        'key3': 'keywords'
-      });
-      folder2.add(object2, 'string2', [
-          'scholars', 'discipline', 'keywords'
-      ]);
-
-// presetJSON: created from pressing the gear.
-function getPresetJSON() {
-    return {
-    "preset": "Default",
-    "closed": true,
-    "remembered": {
-      "Default": {
-        "0": {
-          "type1_boolean": false,
-          "type2_string": "string",
-          "type3_number": 0
-        },
-        "1": {
-          "string1": "string1",
-          "string2": "string2"
-        }
-      },
-      "Preset1": {
-        "0": {
-          "type1_boolean": true,
-          "type2_string": "string123",
-          "type3_number": -2.2938689217758985
-        },
-        "1": {
-          "string1": "string_2",
-          "string2": "string_3"
-        }
-      }
-    },
-    "folders": {
-      "Folder 1": {
-        "preset": "Default",
-        "closed": true,
-        "folders": {}
-      },
-      "Folder 2": {
-        "preset": "Default",
-        "closed": true,
-        "folders": {}
-      },
-     
-    }
-  };
-}
     const elem = document.getElementById('3d-graph');
     const imgs = ['Hashtag3.png'];
-    const Graph = new ForceGraph3D(elem)
-         
-        .jsonUrl('../datasets/trial2.json')
-        .nodeLabel(node => `${node.user}: ${node.description}`)
-        
-              .nodeThreeObjectExtend(true)
-
-       .onNodeClick(node => {
+    const Graph = new ForceGraph3D(elem)   
+      .jsonUrl('../datasets/trial2.json')
+      .nodeLabel(node => `${node.user}: ${node.description}`)
+      .nodeThreeObjectExtend(true)
+      .onNodeClick(node => {
           // Aim at node from outside it
           const distance = 40;
           const distRatio = 1 + distance/Math.hypot(node.x, node.y, node.z);
           const newPos = node.x || node.y || node.z
             ? { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }
             : { x: 0, y: 0, z: distance }; // special case if node is in (0,0,0)
+
             
       Graph.cameraPosition(
             newPos, // new position
@@ -125,10 +61,9 @@ function getPresetJSON() {
             3000  // ms transition duration
           );
        })
+
         .nodeAutoColorBy('group')
         .nodeLabel('text') //scholar or #keyword or discipline
-    
-
         .nodeThreeObject(node => {
         if (node.type == "keywords")
         {
@@ -160,6 +95,39 @@ function getPresetJSON() {
         }})
   
               Graph.d3Force('charge').strength(-120);
-  </script>
 
+
+const pane = new Pane();
+
+const folder = pane.addFolder({
+  title: 'Settings',
+  expanded: false
+});
+
+const PARAMS = {
+  name: 123,
+  label: 'hello',
+  id: '#ff0055',
+};
+
+pane.addBinding(PARAMS, 'name');
+pane.addBinding(PARAMS, 'label');
+pane.addBinding(PARAMS, 'id');
+
+
+const binding = pane.addBinding(PARAMS, 'count');
+binding.on('change', (ev) => {
+  console.log(`Value changed: ${ev.value}`);
+  
+  if (ev.last) {
+    console.log('Final change');
+  }
+});
+
+// Listen for all changes in the Settings pane
+pane.on('change', (ev) => {
+  console.log(`Changed: ${ev.target.key} = ${ev.value}`);
+})
+
+  </script>
 </body>
