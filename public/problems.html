@@ -1,0 +1,172 @@
+<head>
+  <style> body { margin: 0; } </style>
+
+  <script src="//cdn.jsdelivr.net/npm/3d-force-graph"></script>
+  <!--<script src="../../dist/3d-force-graph.js"></script>-->
+</head>
+
+<body>
+  <div id="3d-graph"></div>
+
+  <script type="module">
+    import SpriteText from "https://esm.sh/three-spritetext";
+    import * as THREE from 'https://esm.sh/three';
+    import { GUI } from 'https://esm.sh/dat.gui';
+
+    // controls
+    const controls = { 'Community': 'type'};
+    const gui = new GUI()
+
+  function addGui(gui, name, value, callback, isColor, min, max ) {
+  // ... stays the same
+  };
+
+      var object1 = {
+        type1_boolean: false,
+        type2_string: 'string',
+        type3_number: 0,
+        type4_function: function () {
+          alert('This is a function.');
+          obj = { size: 'Medium', speed: 1 }
+        }
+      };
+
+      var object2 = {
+        string1: 'keywords',
+        string2: 'scholars'
+      };
+
+      var folder1 = gui.addFolder('Structures');
+      folder1.add(object1, 'type3_number', -5, 5);
+      folder1.add(object1, 'type4_function');
+
+      var label = {Name: 'search'};
+        gui.add(label, 'Name')
+        gui.add(controls, 'Community', ['Social sciences', 'Natural sciences', 'Applied Research', 'Artistic Researc'])
+            .onChange(label => graph && graph.dagNodeFilter('type'));
+
+      // collapse folder1
+      folder1.close();
+
+      var folder2 = gui.addFolder('Keywords');
+      folder2.add(object2, 'string1', {
+        'key1': 'scholars',
+        'key2': 'discipline',
+        'key3': 'keywords'
+      });
+      folder2.add(object2, 'string2', [
+          'scholars', 'discipline', 'keywords'
+      ]);
+
+// presetJSON: created from pressing the gear.
+function getPresetJSON() {
+    return {
+    "preset": "Default",
+    "closed": true,
+    "remembered": {
+      "Default": {
+        "0": {
+          "type1_boolean": false,
+          "type2_string": "string",
+          "type3_number": 0
+        },
+        "1": {
+          "string1": "string1",
+          "string2": "string2"
+        }
+      },
+      "Preset1": {
+        "0": {
+          "type1_boolean": true,
+          "type2_string": "string123",
+          "type3_number": -2.2938689217758985
+        },
+        "1": {
+          "string1": "string_2",
+          "string2": "string_3"
+        }
+      }
+    },
+    "folders": {
+      "Folder 1": {
+        "preset": "Default",
+        "closed": true,
+        "folders": {}
+      },
+      "Folder 2": {
+        "preset": "Default",
+        "closed": true,
+        "folders": {}
+      },
+     
+    }
+  };
+}
+    const elem = document.getElementById('3d-graph');
+    const imgs = ['Hashtag3.png'];
+    const Graph = new ForceGraph3D(elem)
+         
+        .jsonUrl('../datasets/trial2.json')
+        .nodeLabel(node => `${node.user}: ${node.description}`)
+        
+              .nodeThreeObjectExtend(true)
+
+       .onNodeClick(node => {
+          // Aim at node from outside it
+          const distance = 40;
+          const distRatio = 1 + distance/Math.hypot(node.x, node.y, node.z);
+          const newPos = node.x || node.y || node.z
+            ? { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }
+            : { x: 0, y: 0, z: distance }; // special case if node is in (0,0,0)
+            
+      Graph.cameraPosition(
+            newPos, // new position
+            node, // lookAt ({ x, y, z })
+            3000  // ms transition duration
+          );
+       })
+        .nodeAutoColorBy('group')
+        .nodeLabel('text') //scholar or #keyword or discipline
+    
+
+        .nodeThreeObject(node => {
+        if (node.type == "keywords")
+        {
+          const imgTexture = new THREE.TextureLoader().load(`./imgs/hashtag3.png`);
+          imgTexture.colorSpace = THREE.SRGBColorSpace;
+          const material = new THREE.SpriteMaterial({ map: imgTexture });
+          const sprite = new THREE.Sprite(material);
+          sprite.scale.set(14, 14);
+          return sprite;
+          
+        } else if (node.type == "scholar")
+        {
+          const imgTexture = new THREE.TextureLoader().load(`./imgs/discipline.png`);
+          imgTexture.colorSpace = THREE.SRGBColorSpace;
+          const material = new THREE.SpriteMaterial({ map: imgTexture });
+          const sprite = new THREE.Sprite(material);
+          sprite.scale.set(14, 14);
+          return sprite;
+        
+        } else (node.type === null)
+        {
+          const sprite = new SpriteText(node.id);
+          sprite.material.depthWrite = false; // make sprite background transparent
+          sprite.color = node.color;
+          sprite.textHeight = 4;
+          sprite.center.y = -1.2; // shift above node
+          return sprite;
+
+        }})
+  
+              Graph.d3Force('charge').strength(-120);
+
+         
+      //.onNodeClick(node => window.prompt("Here is your message"))
+   //     .onNodeClick(node => window.open(node.website))
+      //.onNodeClick(node => if {(node.website) = "positive" open, null} else {result = (window.open(`https://jtc.uni-halle.de/`, '_blank'))}
+      //.onNodeClick(node => window.open(`https://jtc.uni-halle.de/`, '_blank'))
+
+  </script>
+
+</body>
