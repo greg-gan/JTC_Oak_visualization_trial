@@ -42,7 +42,8 @@
 
     const elem = document.getElementById('3d-graph');
     const imgs = ['Hashtag3.png'];
-    const Graph = new ForceGraph3D(elem)   
+    const Graph = new ForceGraph3D(elem)  
+    
       .jsonUrl('../datasets/trial2.json')
       .nodeLabel(node => `${node.user}: ${node.description}`)
       .nodeThreeObjectExtend(true)
@@ -54,7 +55,6 @@
             ? { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }
             : { x: 0, y: 0, z: distance }; // special case if node is in (0,0,0)
 
-            
       Graph.cameraPosition(
             newPos, // new position
             node, // lookAt ({ x, y, z })
@@ -94,8 +94,7 @@
 
         }})
   
-              Graph.d3Force('charge').strength(-120);
-
+Graph.d3Force('charge').strength(-120);
 
 const pane = new Pane();
 
