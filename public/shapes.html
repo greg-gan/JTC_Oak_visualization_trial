@@ -1,0 +1,160 @@
+<head>
+  <style> body { margin: 0; } </style>
+
+  <script src="//cdn.jsdelivr.net/npm/3d-force-graph"></script>
+  <!--<script src="../../dist/3d-force-graph.js"></script>-->
+  
+</head>
+
+<body>
+
+  <style>
+:root {
+  --tp-base-background-color: hsla(230, 20%, 11%, 1.00);
+  --tp-base-shadow-color: hsla(0, 0%, 0%, 0.2);
+  --tp-button-background-color: hsla(230, 10%, 80%, 1.00);
+  --tp-button-background-color-active: hsla(230, 10%, 95%, 1.00);
+  --tp-button-background-color-focus: hsla(230, 10%, 90%, 1.00);
+  --tp-button-background-color-hover: hsla(230, 10%, 85%, 1.00);
+  --tp-button-foreground-color: hsla(230, 20%, 11%, 1.00);
+  --tp-container-background-color: hsla(230, 25%, 16%, 1.00);
+  --tp-container-background-color-active: hsla(230, 25%, 31%, 1.00);
+  --tp-container-background-color-focus: hsla(230, 25%, 26%, 1.00);
+  --tp-container-background-color-hover: hsla(230, 25%, 21%, 1.00);
+  --tp-container-foreground-color: hsla(230, 10%, 80%, 1.00);
+  --tp-groove-foreground-color: hsla(230, 20%, 8%, 1.00);
+  --tp-input-background-color: hsla(230, 20%, 8%, 1.00);
+  --tp-input-background-color-active: hsla(230, 28%, 23%, 1.00);
+  --tp-input-background-color-focus: hsla(230, 28%, 18%, 1.00);
+  --tp-input-background-color-hover: hsla(230, 20%, 13%, 1.00);
+  --tp-input-foreground-color: hsla(230, 10%, 80%, 1.00);
+  --tp-label-foreground-color: hsla(230, 12%, 48%, 1.00);
+  --tp-monitor-background-color: hsla(230, 20%, 8%, 1.00);
+  --tp-monitor-foreground-color: hsla(230, 12%, 48%, 1.00);
+}
+</style>
+  <div id="3d-graph"></div>
+   
+  <script type="module">
+    import SpriteText from "https://esm.sh/three-spritetext";
+    import * as THREE from 'https://esm.sh/three';
+    import {Pane} from 'https://cdn.jsdelivr.net/npm/tweakpane@4.0.5/dist/tweakpane.min.js';
+
+    const elem = document.getElementById('3d-graph');
+    const imgs = ['discipline.png', 'hashtag.png', 'structure.png'];
+    const Graph = new ForceGraph3D(elem)  
+      .jsonUrl('../datasets/trial2.json')
+      .nodeLabel(node => `${node.user}: ${node.description}`)
+      .nodeResolution([12])
+      .onNodeClick(node => {
+          // Aim at node from outside it
+          const distance = 60;
+          const distRatio = 1 + distance/Math.hypot(node.x, node.y, node.z);
+          const newPos = node.x || node.y || node.z
+            ? { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }
+            : { x: 0, y: 0, z: distance }; // special case if node is in (0,0,0)
+
+      Graph.cameraPosition(
+            newPos, // new position
+            node, // lookAt ({ x, y, z })
+            3000  // ms transition duration
+          );
+       })
+      .nodeAutoColorBy('group')
+      .nodeThreeObjectExtend(false)
+      .nodeLabel('text') //scholar or #keyword or discipline
+      .nodeThreeObject(node => {
+         const textSprite = new SpriteText(node.label ?? node.id);
+      
+            if (node.type === "scholar"){       
+            const sprite = new SpriteText(node.id);
+            sprite.material.depthWrite = true; // make sprite background transparent
+            sprite.color = node.color;
+            sprite.textHeight = 4;
+            sprite.center.y = -1.2; // shift above node
+            return sprite;
+            }
+            else if (node.type === "discipline"){
+         textSprite.material.depthWrite = false; // make sprite background transparent
+         textSprite.color = node.color;
+         textSprite.center.y = 2.2; // shift above node
+            const imgTexture = new THREE.TextureLoader().load(`./imgs/discipline.png`);
+            imgTexture.colorSpace = THREE.SRGBColorSpace;
+            const material = new THREE.SpriteMaterial({map: imgTexture});
+            const sprite = new THREE.Sprite(material);
+            sprite.scale.set(14, 14);
+            textSprite.textHeight = 4/10; // needs refining
+            sprite.add(textSprite); // combine sprite with textSprite
+            node.color = 'rgba(0,0,0,0)'; // make the original sphere invisible
+            return sprite;
+          
+           } 
+           else if(node.type === "keywords"){
+         textSprite.material.depthWrite = false; // make sprite background transparent
+         textSprite.color = node.color;
+         textSprite.center.y = 2.2; // shift above node
+            const imgTexture = new THREE.TextureLoader().load(`./imgs/hashtag.png`);
+            imgTexture.colorSpace = THREE.SRGBColorSpace;
+            const material = new THREE.SpriteMaterial({map: imgTexture});
+            const sprite = new THREE.Sprite(material);
+            sprite.scale.set(10,10);
+            textSprite.textHeight = 4/8; // needs refining
+            sprite.add(textSprite); // combine sprite with textSprite
+            node.color = 'rgba(0,0,0,0)'; // make the original sphere invisible
+            return sprite;
+          }
+           else if (node.type === "structure"){
+         textSprite.material.depthWrite = false; // make sprite background transparent
+         textSprite.color = node.color;
+         textSprite.center.y = 2.2; // shift above node
+            const imgTexture = new THREE.TextureLoader().load(`./imgs/structure.png`);
+            imgTexture.colorSpace = THREE.SRGBColorSpace;
+            const material = new THREE.SpriteMaterial({map: imgTexture});
+            const sprite = new THREE.Sprite(material);
+            sprite.scale.set(14, 14);
+            textSprite.textHeight = 4/10; // needs refining
+            sprite.add(textSprite); // combine sprite with textSprite
+            node.opacity = 'rgba(0,0,0,0)'; // make the original sphere invisible
+            return sprite;
+         }
+         textSprite.textHeight = 4;
+         return textSprite;
+      });
+  
+
+Graph.d3Force('charge').strength(-120);
+
+const pane = new Pane();
+
+const folder = pane.addFolder({
+  title: 'Settings',
+  expanded: false
+});
+
+const PARAMS = {
+  name: 123,
+  label: 'hello',
+  id: '#ff0055',
+};
+
+pane.addBinding(PARAMS, 'name');
+pane.addBinding(PARAMS, 'label');
+pane.addBinding(PARAMS, 'id');
+
+
+const binding = pane.addBinding(PARAMS, 'count');
+binding.on('change', (ev) => {
+  console.log(`Value changed: ${ev.value}`);
+  
+  if (ev.last) {
+    console.log('Final change');
+  }
+});
+
+// Listen for all changes in the Settings pane
+pane.on('change', (ev) => {
+  console.log(`Changed: ${ev.target.key} = ${ev.value}`);
+})
+
+  </script>
+</body>
