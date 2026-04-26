@@ -1,7 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <script src="script.js"></script>
 <head>
   <style> body { margin: 0; } </style>
 
-  <script src="//cdn.jsdelivr.net/npm/3d-force-graph"></script>
+  <!--<script src="//cdn.jsdelivr.net/npm/3d-force-graph"></script>-->
   <!--<script src="../../dist/3d-force-graph.js"></script>-->
   
 </head>
@@ -11,10 +17,11 @@
   <div id="3d-graph"></div>
    
   <script type="module">
+    import ForceGraph3D from 'https://esm.sh/3d-force-graph';
     import SpriteText from "https://esm.sh/three-spritetext";
     import * as THREE from 'https://esm.sh/three';
     import {Pane} from 'https://cdn.jsdelivr.net/npm/tweakpane@4.0.5/dist/tweakpane.min.js';
-
+ 
       const Graph = new ForceGraph3D(document.getElementById('3d-graph'))
           .jsonUrl('../datasets/trial2.json')
       //    .nodeLabel(node => `${node.user}: ${node.description}`)
@@ -105,3 +112,4 @@
 
   </script>
 </body>
+</html>
