@@ -65,6 +65,9 @@
       .nodeLabel('text') //scholar or #keyword or discipline
       .nodeThreeObject(node => {
          const textSprite = new SpriteText(node.label ?? node.id);
+          textSprite.material.depthWrite = false; // make sprite background transparent
+         textSprite.color = node.color;
+         textSprite.center.y = 2.2; // shift above node
       
             if (node.type === "scholar"){       
             const sprite = new SpriteText(node.id);
@@ -75,9 +78,7 @@
             return sprite;
             }
             else if (node.type === "discipline"){
-         textSprite.material.depthWrite = false; // make sprite background transparent
-         textSprite.color = node.color;
-         textSprite.center.y = 2.2; // shift above node
+         
             const imgTexture = new THREE.TextureLoader().load(`./imgs/discipline.png`);
             imgTexture.colorSpace = THREE.SRGBColorSpace;
             const material = new THREE.SpriteMaterial({map: imgTexture});
@@ -90,9 +91,7 @@
           
            } 
            else if(node.type === "keywords"){
-         textSprite.material.depthWrite = false; // make sprite background transparent
-         textSprite.color = node.color;
-         textSprite.center.y = 2.2; // shift above node
+       
             const imgTexture = new THREE.TextureLoader().load(`./imgs/hashtag.png`);
             imgTexture.colorSpace = THREE.SRGBColorSpace;
             const material = new THREE.SpriteMaterial({map: imgTexture});
@@ -104,9 +103,7 @@
             return sprite;
           }
            else if (node.type === "structure"){
-         textSprite.material.depthWrite = false; // make sprite background transparent
-         textSprite.color = node.color;
-         textSprite.center.y = 2.2; // shift above node
+       
             const imgTexture = new THREE.TextureLoader().load(`./imgs/structure.png`);
             imgTexture.colorSpace = THREE.SRGBColorSpace;
             const material = new THREE.SpriteMaterial({map: imgTexture});
