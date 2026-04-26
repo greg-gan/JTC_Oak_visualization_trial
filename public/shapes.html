@@ -87,7 +87,8 @@
             sprite.add(textSprite); // combine sprite with textSprite
             node.color = 'rgba(0,0,0,0)'; // make the original sphere invisible
             return sprite;
-           }
+          
+           } 
            else if(node.type === "keywords"){
          textSprite.material.depthWrite = false; // make sprite background transparent
          textSprite.color = node.color;
