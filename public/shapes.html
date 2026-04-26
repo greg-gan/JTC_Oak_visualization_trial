@@ -78,7 +78,7 @@
          textSprite.material.depthWrite = false; // make sprite background transparent
          textSprite.color = node.color;
          textSprite.center.y = 2.2; // shift above node
-            const imgTexture = new THREE.TextureLoader().load(`./imgs/discipline.png`);
+            const imgTexture = new THREE.TextureLoader().load(`../imgs/discipline.png`);
             imgTexture.colorSpace = THREE.SRGBColorSpace;
             const material = new THREE.SpriteMaterial({map: imgTexture});
             const sprite = new THREE.Sprite(material);
@@ -87,13 +87,12 @@
             sprite.add(textSprite); // combine sprite with textSprite
             node.color = 'rgba(0,0,0,0)'; // make the original sphere invisible
             return sprite;
-          
-           } 
+           }
            else if(node.type === "keywords"){
          textSprite.material.depthWrite = false; // make sprite background transparent
          textSprite.color = node.color;
          textSprite.center.y = 2.2; // shift above node
-            const imgTexture = new THREE.TextureLoader().load(`./imgs/hashtag.png`);
+            const imgTexture = new THREE.TextureLoader().load(`../imgs/hashtag.png`);
             imgTexture.colorSpace = THREE.SRGBColorSpace;
             const material = new THREE.SpriteMaterial({map: imgTexture});
             const sprite = new THREE.Sprite(material);
@@ -107,7 +106,7 @@
          textSprite.material.depthWrite = false; // make sprite background transparent
          textSprite.color = node.color;
          textSprite.center.y = 2.2; // shift above node
-            const imgTexture = new THREE.TextureLoader().load(`./imgs/structure.png`);
+            const imgTexture = new THREE.TextureLoader().load(`../imgs/structure.png`);
             imgTexture.colorSpace = THREE.SRGBColorSpace;
             const material = new THREE.SpriteMaterial({map: imgTexture});
             const sprite = new THREE.Sprite(material);
