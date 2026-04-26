@@ -5,6 +5,7 @@
          "x": 1478.5462646484375,
          "y": -2494.480712890625,
          "id": "Urban planning",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "11",
@@ -22,6 +23,7 @@
          "x": 1072.099365234375,
          "y": -498.5552673339844,
          "id": "Interdisciplinary research",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "9",
@@ -39,7 +41,8 @@
          "x": 420.4732971191406,
          "y": -2115.9296875,
          "id": "Anthropology",
-         "website":"https://en.wikipedia.org/wiki/Anthropology",
+         "type": "discipline",
+         "link":"https://en.wikipedia.org/wiki/Anthropology",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "7",
@@ -57,6 +60,7 @@
          "x": -973.1871337890625,
          "y": -1152.9853515625,
          "id": "Human Geography",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -74,6 +78,7 @@
          "x": 3789.115966796875,
          "y": 2979.260009765625,
          "id": "#low-carbon technologies",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -91,6 +96,7 @@
          "x": -2075.54833984375,
          "y": -3116.991943359375,
          "id": "#post-industrial landscapes",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "9",
@@ -108,6 +114,7 @@
          "x": -2268.3349609375,
          "y": -4315.837890625,
          "id": "#multimodal research",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -125,6 +132,7 @@
          "x": 1716.0400390625,
          "y": 9477.0849609375,
          "id": "#biotechnology",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "5",
@@ -142,6 +150,7 @@
          "x": -343.2608642578125,
          "y": -4171.7001953125,
          "id": "A5: Postindustrial Futures",
+         "type": "structure",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -159,6 +168,7 @@
          "x": -1448.0404052734375,
          "y": -4560.13232421875,
          "id": "Prof. Dr. Jenny Haase",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "9",
@@ -176,6 +186,7 @@
          "x": 2208.571044921875,
          "y": 673.5870361328125,
          "id": "#decarbonisation",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -193,6 +204,7 @@
          "x": -4174.93408203125,
          "y": -2305.88916015625,
          "id": "C3: Transformative Learning (TraiL)",
+         "type:": "structure",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "7",
@@ -210,6 +222,7 @@
          "x": -818.0545043945312,
          "y": -709.8528442382812,
          "id": "#socio-ecological transformation",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -227,6 +240,7 @@
          "x": -2228.23876953125,
          "y": 13.200262069702148,
          "id": "Benjamin Steininger",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "9",
@@ -244,6 +258,7 @@
          "x": -884.9843139648438,
          "y": 1949.185546875,
          "id": "#natural resource management",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "4",
@@ -261,6 +276,7 @@
          "x": 1490.8519287109375,
          "y": 5844.779296875,
          "id": "Dr. Maria Gaudig",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -278,6 +294,7 @@
          "x": 1857.50390625,
          "y": -792.1140747070312,
          "id": "Prof. dr. J. (Joyeeta) Gupta",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -295,6 +312,7 @@
          "x": -2547.25537109375,
          "y": -1237.787109375,
          "id": "Prof. Dr. Garret Zastoupil",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -312,6 +330,7 @@
          "x": -231.6823272705078,
          "y": -4632.83349609375,
          "id": "#digitalization",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -329,6 +348,7 @@
          "x": 3756.60986328125,
          "y": -463.20513916015625,
          "id": "Sociology",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -346,6 +366,7 @@
          "x": 327.4027404785156,
          "y": -5865.6396484375,
          "id": "Digital Geography",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "11",
@@ -363,6 +384,7 @@
          "x": -1111.748291015625,
          "y": -944.9282836914062,
          "id": "Dr. Mareike Pampus",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -380,6 +402,7 @@
          "x": -1713.37109375,
          "y": 1167.38623046875,
          "id": "Media Theory",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "7",
@@ -397,6 +420,7 @@
          "x": 827.7566528320312,
          "y": -911.499755859375,
          "id": "Aloke Majumdar",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -414,6 +438,7 @@
          "x": 721.7588500976562,
          "y": 1077.603759765625,
          "id": "Policy development",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -431,6 +456,7 @@
          "x": -2472.73681640625,
          "y": -358.8247985839844,
          "id": "Hospitality \u0026 management",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -448,6 +474,7 @@
          "x": 1047.4720458984375,
          "y": -1513.2342529296875,
          "id": "#local activism",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -465,6 +492,7 @@
          "x": 1186.3416748046875,
          "y": 6011.14697265625,
          "id": "Francesco Caddeo",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -482,6 +510,7 @@
          "x": 2824.514892578125,
          "y": -10.424445152282715,
          "id": "#energy justice",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -499,6 +528,7 @@
          "x": -10199.0859375,
          "y": 5378.31640625,
          "id": "#open source",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "6",
@@ -516,6 +546,7 @@
          "x": -2212.160400390625,
          "y": 626.7201538085938,
          "id": "Geoecology",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -533,6 +564,7 @@
          "x": -2083.588623046875,
          "y": -631.663818359375,
          "id": "Dr. Martin Kriemann",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -550,6 +582,7 @@
          "x": 4528.755859375,
          "y": -1349.6859130859375,
          "id": "Environmental Law",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -567,6 +600,7 @@
          "x": -3897.19091796875,
          "y": -7329.08251953125,
          "id": "Sound Art",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -584,6 +618,7 @@
          "x": -2428.05712890625,
          "y": 2653.65673828125,
          "id": "#biodiversity",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "10",
@@ -601,6 +636,7 @@
          "x": 426.1595764160156,
          "y": 4616.3203125,
          "id": "Tshepiso Tema",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -618,6 +654,7 @@
          "x": 1465.4361572265625,
          "y": 1890.67236328125,
          "id": "Vincent Obisie-Orlu",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -635,6 +672,7 @@
          "x": 2809.3173828125,
          "y": 1047.4920654296875,
          "id": "Dr Sufyan El Droubi",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -652,6 +690,7 @@
          "x": -220.60401916503906,
          "y": -1322.843505859375,
          "id": "Eva Fabian",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -669,6 +708,7 @@
          "x": 5494.03564453125,
          "y": -2771.2490234375,
          "id": "Industrial Relations",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -686,6 +726,7 @@
          "x": -15417.314453125,
          "y": 16403.609375,
          "id": "Arthur Bondar",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "12",
@@ -703,6 +744,7 @@
          "x": -299.8304443359375,
          "y": -1092.6539306640625,
          "id": "Dr. Julia Grosinger",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "10",
@@ -720,6 +762,7 @@
          "x": 259.6119384765625,
          "y": -363.3686218261719,
          "id": "Ruth Levitas",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -737,6 +780,7 @@
          "x": 1919.493408203125,
          "y": -46.566612243652344,
          "id": "Just Transition Network Belgium",
+         "type": "structure",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "9",
@@ -754,6 +798,7 @@
          "x": 1865.469482421875,
          "y": 2504.865478515625,
          "id": "Sabina Hodžić, PhD",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -771,6 +816,7 @@
          "x": 2316.0712890625,
          "y": -1356.1109619140625,
          "id": "Prof. Dr. Christian Tietje",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -788,6 +834,7 @@
          "x": 668.975830078125,
          "y": 5620.767578125,
          "id": "Chemistry",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "5",
@@ -805,6 +852,7 @@
          "x": -15494.3505859375,
          "y": 16412.89453125,
          "id": "#cultural heritage",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "12",
@@ -822,6 +870,7 @@
          "x": 3445.057861328125,
          "y": -2374.3505859375,
          "id": "#human rights",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -839,6 +888,7 @@
          "x": 4254.642578125,
          "y": -2239.6103515625,
          "id": "Human Rights",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -856,6 +906,7 @@
          "x": 10.327089309692383,
          "y": -2016.2593994140625,
          "id": "PD Dr. Katja Müller",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "9",
@@ -873,6 +924,7 @@
          "x": 2719.52880859375,
          "y": -1498.6259765625,
          "id": "Romain Mauger\n\nhttps://orcid.org/0000-0002-5085-7518",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "10",
@@ -890,6 +942,7 @@
          "x": -1011.3375244140625,
          "y": -2118.52783203125,
          "id": "Imke Hurlin",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -907,6 +960,7 @@
          "x": 1560.57666015625,
          "y": -4449.75537109375,
          "id": "Eleanor Drage",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -924,6 +978,7 @@
          "x": 514.9231567382812,
          "y": 3768.165283203125,
          "id": "Peter Tom Jones",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "10",
@@ -941,6 +996,7 @@
          "x": -2284.911865234375,
          "y": -1164.31103515625,
          "id": "Stephanie Freide",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -958,6 +1014,7 @@
          "x": 1136.2547607421875,
          "y": -3106.91845703125,
          "id": "Prof. Dr. Anita von Poser",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "7",
@@ -975,6 +1032,7 @@
          "x": 3187.62060546875,
          "y": -224.43368530273438,
          "id": "Raphael J. Heffron",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -992,6 +1050,7 @@
          "x": 4094.31787109375,
          "y": 1713.6044921875,
          "id": "Kostantsa Rangelova",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -1009,6 +1068,7 @@
          "x": -1952.9296875,
          "y": -4036.134033203125,
          "id": "Lena Würsching",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -1026,6 +1086,7 @@
          "x": 726.60498046875,
          "y": -579.6363525390625,
          "id": "Prof. Dr. Martin Pelucha",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -1043,6 +1104,7 @@
          "x": -1171.591064453125,
          "y": -4159.767578125,
          "id": "Carlos Tobón Franco",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -1060,6 +1122,7 @@
          "x": -19.165817260742188,
          "y": -3111.99853515625,
          "id": "Godofredo Pereira",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -1077,6 +1140,7 @@
          "x": -2849.469482421875,
          "y": -3173.64697265625,
          "id": "Daniel Wolter",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -1094,6 +1158,7 @@
          "x": -2125.504638671875,
          "y": -3673.155029296875,
          "id": "Thora Petursdottir\n\u2028",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "9",
@@ -1111,6 +1176,7 @@
          "x": 1691.7982177734375,
          "y": 400.1546936035156,
          "id": "Konstantinia Nikolaidou",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -1128,6 +1194,7 @@
          "x": 3449.85986328125,
          "y": -337.86346435546875,
          "id": "Dr. Adolfo Mejia-Montero",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -1145,6 +1212,7 @@
          "x": 3020.46728515625,
          "y": -1059.9725341796875,
          "id": "Prof. Dr. Felipe Encinas",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -1162,6 +1230,7 @@
          "x": 2657.26318359375,
          "y": 2967.63330078125,
          "id": "#energy planning",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -1179,6 +1248,7 @@
          "x": 3785.60498046875,
          "y": 2527.189697265625,
          "id": "energy transition",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "5",
@@ -1196,6 +1266,7 @@
          "x": 621.3477172851562,
          "y": -3177.104248046875,
          "id": "Dr. Presha Ramsarup",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "7",
@@ -1213,6 +1284,7 @@
          "x": 4527.02734375,
          "y": -2168.11181640625,
          "id": "Vilja Johansson",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -1230,6 +1302,7 @@
          "x": -841.8756103515625,
          "y": -4473.6748046875,
          "id": "Prof. Dr. Anne-Kathrin Lindau",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "9",
@@ -1247,6 +1320,7 @@
          "x": 740.8804931640625,
          "y": -2928.760498046875,
          "id": "Philosophy",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -1264,6 +1338,7 @@
          "x": 2245.74072265625,
          "y": 493.19635009765625,
          "id": "Political science",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -1281,6 +1356,7 @@
          "x": -3600.08349609375,
          "y": -6799.90673828125,
          "id": "Mathilde Meireles\u2028\u2028https://matildemeireles.com/",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -1298,6 +1374,7 @@
          "x": 1135.8194580078125,
          "y": -4133.0771484375,
          "id": "History",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -1315,6 +1392,7 @@
          "x": -443.82183837890625,
          "y": -2595.563232421875,
          "id": "Transition Studies",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -1332,6 +1410,7 @@
          "x": 1597.9638671875,
          "y": 1186.341064453125,
          "id": "Daniel Chavez",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "9",
@@ -1349,6 +1428,7 @@
          "x": -1899.803955078125,
          "y": -432.9616394042969,
          "id": "Prof. Dr. Jörg Dinkelaker",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -1366,6 +1446,7 @@
          "x": -1036.3919677734375,
          "y": -2666.412841796875,
          "id": "Dr. Anke Schwarz",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -1383,6 +1464,7 @@
          "x": -3938.158203125,
          "y": -4374.63037109375,
          "id": "Prof. Dr. Klaus Näumann",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "7",
@@ -1400,6 +1482,7 @@
          "x": 4434.9228515625,
          "y": -366.66619873046875,
          "id": "Pia Kahlfuß",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -1417,6 +1500,7 @@
          "x": -2182.02392578125,
          "y": -1896.922119140625,
          "id": "Dr. Athina Copteros",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -1434,6 +1518,7 @@
          "x": -1332.97509765625,
          "y": 5994.2802734375,
          "id": "Jingwen Liu",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -1451,6 +1536,7 @@
          "x": 1995.397216796875,
          "y": 5908.0654296875,
          "id": "B5: New Photovoltaic Materials",
+         "type": "structure",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -1468,6 +1554,7 @@
          "x": -2892.3681640625,
          "y": -5075.9580078125,
          "id": "#artistic research",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -1485,6 +1572,7 @@
          "x": 892.2366943359375,
          "y": -3961.107421875,
          "id": "Dr. habil. Konstantin Branovitskiy",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -1502,6 +1590,7 @@
          "x": -1200.8099365234375,
          "y": -3509.332763671875,
          "id": "Sebastian Schöne",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -1519,6 +1608,7 @@
          "x": -8269.05078125,
          "y": 4447.6416015625,
          "id": "C1: Sustainability standardisation",
+         "type": "structure",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "6",
@@ -1536,6 +1626,7 @@
          "x": 462.7030334472656,
          "y": -4522.4365234375,
          "id": "#postsocialism",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "7",
@@ -1553,6 +1644,7 @@
          "x": 883.01318359375,
          "y": -5102.8037109375,
          "id": "Education/Philosophy",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "9",
@@ -1570,6 +1662,7 @@
          "x": 2991.23583984375,
          "y": -2109.894287109375,
          "id": "#climate policy",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -1587,6 +1680,7 @@
          "x": -1323.430908203125,
          "y": -1521.2103271484375,
          "id": "#water rights",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -1604,6 +1698,7 @@
          "x": -2803.895263671875,
          "y": -2479.64013671875,
          "id": "#contamination",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -1621,6 +1716,7 @@
          "x": 3507.14306640625,
          "y": -529.7203979492188,
          "id": "Chiara Gemoll",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -1638,6 +1734,7 @@
          "x": 475.7041931152344,
          "y": 5053.25439453125,
          "id": "Hanxuan Zeng",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -1655,6 +1752,7 @@
          "x": 3595.256591796875,
          "y": 3842.541015625,
          "id": "Rafael Martinez Gordon\u2028\u2028\u2028https://fr.linkedin.com/in/ramargor",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -1672,6 +1770,7 @@
          "x": 234.0047607421875,
          "y": -512.95458984375,
          "id": "Amy Walker",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -1689,6 +1788,7 @@
          "x": -1599.1947021484375,
          "y": -1775.548095703125,
          "id": "Dr. Colleen Unroe",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -1706,6 +1806,7 @@
          "x": 3286.04443359375,
          "y": -2727.2783203125,
          "id": "Alessia Consiglio",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -1723,6 +1824,7 @@
          "x": 3708.631591796875,
          "y": -2874.604736328125,
          "id": "Political sociology, political geography",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -1740,6 +1842,7 @@
          "x": -335.5046691894531,
          "y": -3182.938720703125,
          "id": "#sites of loss",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -1757,6 +1860,7 @@
          "x": -281.13671875,
          "y": 325.4960632324219,
          "id": "A2: Chemistry in transition",
+         "type": "structure",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "7",
@@ -1774,6 +1878,7 @@
          "x": 1473.02978515625,
          "y": 2581.174072265625,
          "id": "#energy economy",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "4",
@@ -1791,6 +1896,7 @@
          "x": 2656.33447265625,
          "y": 4617.607421875,
          "id": "Giovanna Sanchez Nieminen",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -1808,6 +1914,7 @@
          "x": 973.6531982421875,
          "y": 846.0093383789062,
          "id": "Rita Mergner",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "10",
@@ -1825,6 +1932,7 @@
          "x": -251.18113708496094,
          "y": -6953.64501953125,
          "id": "Environmental history",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "9",
@@ -1842,6 +1950,7 @@
          "x": 441.7751159667969,
          "y": -1388.4530029296875,
          "id": "#sensory research",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "7",
@@ -1859,6 +1968,7 @@
          "x": -677.1468505859375,
          "y": -3874.848388671875,
          "id": "#heritage",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "9",
@@ -1876,6 +1986,7 @@
          "x": -3138.792236328125,
          "y": -4776.34619140625,
          "id": "Prof. Dr. Pablo Abend",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -1893,6 +2004,7 @@
          "x": -2146.198486328125,
          "y": -2627.150634765625,
          "id": "Urban sociology",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -1910,6 +2022,7 @@
          "x": 1005.4775390625,
          "y": 1422.4207763671875,
          "id": "Dr. Bibhu Prasad Nayak",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -1927,6 +2040,7 @@
          "x": -1629.9058837890625,
          "y": -3043.63623046875,
          "id": "#more-than-human geographies",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "9",
@@ -1944,6 +2058,7 @@
          "x": 3994.48779296875,
          "y": -84.3095932006836,
          "id": "Energy Justice, Energy Law, Just Transition, Energy Risk",
+         "type": "structure",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -1961,6 +2076,7 @@
          "x": 1573.882080078125,
          "y": 5951.74365234375,
          "id": "Dr. Muhammad Zubair",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -1978,6 +2094,7 @@
          "x": -2607.359375,
          "y": 760.4472045898438,
          "id": "#soil remediation",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "4",
@@ -1995,6 +2112,7 @@
          "x": -1354.148681640625,
          "y": 1103.01171875,
          "id": "Dr. Alessandra Manzini",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -2012,6 +2130,7 @@
          "x": -1378.788818359375,
          "y": -2555.5771484375,
          "id": "Dr. Mgr. Slavomíra Ferenčuhová",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -2029,6 +2148,7 @@
          "x": 565.657470703125,
          "y": -3315.08544921875,
          "id": "#extractivism",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "9",
@@ -2046,6 +2166,7 @@
          "x": -1763.5072021484375,
          "y": 2532.525634765625,
          "id": "B1: CO2-Sequestration and Soil Recultivation through Recycling of Mineral Residues",
+         "type": "structure",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -2063,6 +2184,7 @@
          "x": 1733.640625,
          "y": 3478.289306640625,
          "id": "#green transition",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -2080,6 +2202,7 @@
          "x": -3317.97802734375,
          "y": -5491.2451171875,
          "id": "Tom Meier",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -2097,6 +2220,7 @@
          "x": 893.9161987304688,
          "y": 1830.130615234375,
          "id": "Dr. Asel Doranova",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -2114,6 +2238,7 @@
          "x": -2740.827880859375,
          "y": -6570.3134765625,
          "id": "Art curator",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -2131,6 +2256,7 @@
          "x": 948.0115356445312,
          "y": -1640.282958984375,
          "id": "Megan Jeanne Gette\u2028\u2028https://unrulinesss.com/our-team/megan-gette",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "7",
@@ -2148,6 +2274,7 @@
          "x": -1261.861572265625,
          "y": -5907.61376953125,
          "id": "#feminist ecology",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -2165,6 +2292,7 @@
          "x": -412.9670104980469,
          "y": 2817.448974609375,
          "id": "#raw materials",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "4",
@@ -2182,6 +2310,7 @@
          "x": 322.2506103515625,
          "y": -5043.01123046875,
          "id": "#smart city",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "11",
@@ -2199,6 +2328,7 @@
          "x": -719.3028564453125,
          "y": -1266.6925048828125,
          "id": "Human geography",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "10",
@@ -2216,6 +2346,7 @@
          "x": -725.2418212890625,
          "y": -2187.464111328125,
          "id": "#postindustrial futures",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -2233,6 +2364,7 @@
          "x": 1471.826416015625,
          "y": 1053.86669921875,
          "id": "#transition policies",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -2250,6 +2382,7 @@
          "x": -830.8953857421875,
          "y": -1820.280517578125,
          "id": "#urban and regional studies",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -2267,6 +2400,7 @@
          "x": 2634.21435546875,
          "y": -2794.128173828125,
          "id": "#inequality",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "11",
@@ -2284,6 +2418,7 @@
          "x": -666.429443359375,
          "y": 4405.4677734375,
          "id": "#chemistry-in-transition",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "5",
@@ -2301,6 +2436,7 @@
          "x": -10479.30859375,
          "y": 5526.1279296875,
          "id": "Benjamin Kashlan",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "6",
@@ -2318,6 +2454,7 @@
          "x": 2974.763671875,
          "y": 502.53009033203125,
          "id": "McCauley, Darren",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "11",
@@ -2335,6 +2472,7 @@
          "x": -2699.8046875,
          "y": -1969.3231201171875,
          "id": "A3: Networking with regions undergoing structural change",
+         "type": "structure",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -2352,6 +2490,7 @@
          "x": 2679.212646484375,
          "y": -387.5661315917969,
          "id": "Gustė Gurčinaitė",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "11",
@@ -2369,6 +2508,7 @@
          "x": 786.0769653320312,
          "y": 910.5620727539062,
          "id": "Sustainable finance",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "10",
@@ -2386,7 +2526,8 @@
          "x": -10438.931640625,
          "y": 5620.7666015625,
          "id": "Martin Häuer",
-         "url": "https://jtc.uni-halle.de/martin-haeuer/",
+         "link": "https://jtc.uni-halle.de/martin-haeuer/",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "6",
@@ -2404,6 +2545,7 @@
          "x": -1702.5777587890625,
          "y": -3808.88720703125,
          "id": "Prof. Dr. François Bertemes",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "9",
@@ -2421,6 +2563,7 @@
          "x": 2929.699951171875,
          "y": 1578.115234375,
          "id": "Peter Newell",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -2438,6 +2581,7 @@
          "x": 1981.0843505859375,
          "y": 6418.1259765625,
          "id": "Anjali Bhatt",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -2455,6 +2599,7 @@
          "x": -171.27854919433594,
          "y": -46.82172775268555,
          "id": "Prof. Dr. Adam Drobniak",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -2472,6 +2617,7 @@
          "x": -2427.745849609375,
          "y": -5925.734375,
          "id": "Karolina Majewska-Güde",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -2489,6 +2635,7 @@
          "x": 9.065606117248535,
          "y": 5179.5498046875,
          "id": "#sustainable polymers",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "4",
@@ -2506,6 +2653,7 @@
          "x": -18.90798568725586,
          "y": 1844.8067626953125,
          "id": "Dr Megan J. Cole",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -2523,6 +2671,7 @@
          "x": 3172.768310546875,
          "y": -1728.58154296875,
          "id": "Julius Veenstra",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "11",
@@ -2540,6 +2689,7 @@
          "x": 3396.850341796875,
          "y": 634.83935546875,
          "id": "Jenny Patient",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -2557,6 +2707,7 @@
          "x": -2856.1748046875,
          "y": 1878.95751953125,
          "id": "Emma Harlow",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -2574,6 +2725,7 @@
          "x": -2087.0576171875,
          "y": -844.762451171875,
          "id": "#community development",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -2591,6 +2743,7 @@
          "x": -15440.912109375,
          "y": 16459.587890625,
          "id": "Photographer/Archivist",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "12",
@@ -2608,6 +2761,7 @@
          "x": 375.9863586425781,
          "y": 968.1324462890625,
          "id": "#lithium",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "4",
@@ -2625,6 +2779,7 @@
          "x": 4238.39697265625,
          "y": 1042.092041015625,
          "id": "Dr. Keyvan Hosseini",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -2642,6 +2797,7 @@
          "x": -3205.666015625,
          "y": -5706.03564453125,
          "id": "Artist",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -2659,6 +2815,7 @@
          "x": -1775.288330078125,
          "y": -4228.7607421875,
          "id": "Filmmaking",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -2676,6 +2833,7 @@
          "x": -1856.7572021484375,
          "y": -3894.531005859375,
          "id": "Cultural studies",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -2693,6 +2851,7 @@
          "x": -1990.7288818359375,
          "y": -1403.306640625,
          "id": "#education in rural areas",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -2710,6 +2869,7 @@
          "x": 633.2476806640625,
          "y": -1454.545654296875,
          "id": "Klaus Peters",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -2727,6 +2887,7 @@
          "x": 286.8304138183594,
          "y": 3151.857666015625,
          "id": "Yves Verschueren",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -2744,6 +2905,7 @@
          "x": 5102.11279296875,
          "y": -2500.65673828125,
          "id": "#environmental law",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -2761,6 +2923,7 @@
          "x": -3110.05029296875,
          "y": -3799.842529296875,
          "id": "Artistic Research",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -2778,6 +2941,7 @@
          "x": 2570.586181640625,
          "y": -267.8055419921875,
          "id": "Dr. Amanda Slevin",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "11",
@@ -2795,6 +2959,7 @@
          "x": 2078.37109375,
          "y": 3363.986328125,
          "id": "Julia Poliscanova",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -2812,6 +2977,7 @@
          "x": 3964.86474609375,
          "y": 913.9718017578125,
          "id": "#transport economics",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -2829,6 +2995,7 @@
          "x": 4316.611328125,
          "y": -3914.98876953125,
          "id": "#fair investment",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "11",
@@ -2846,6 +3013,7 @@
          "x": -2835.1279296875,
          "y": -6964.763671875,
          "id": "Interdisciplinary artist",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -2863,6 +3031,7 @@
          "x": -304.8647155761719,
          "y": 3091.24560546875,
          "id": "Christian Lohmann",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -2880,6 +3049,7 @@
          "x": 3498.944091796875,
          "y": -4330.0576171875,
          "id": "Journalism",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -2897,6 +3067,7 @@
          "x": -703.2140502929688,
          "y": -3497.853515625,
          "id": "#art history",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "9",
@@ -2914,6 +3085,7 @@
          "x": 730.478271484375,
          "y": -2753.01318359375,
          "id": "#built environment",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "10",
@@ -2931,6 +3103,7 @@
          "x": -1780.7796630859375,
          "y": -2694.043701171875,
          "id": "Kerstin Brandt\u2028",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "9",
@@ -2948,6 +3121,7 @@
          "x": 1247.397216796875,
          "y": -359.14373779296875,
          "id": "#degrowth",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "10",
@@ -2965,6 +3139,7 @@
          "x": -849.0963134765625,
          "y": 3033.015869140625,
          "id": "Annemie Kusturica",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -2982,6 +3157,7 @@
          "x": 808.0623779296875,
          "y": -2183.223388671875,
          "id": "Ana Elian",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "11",
@@ -2999,6 +3175,7 @@
          "x": 282.87530517578125,
          "y": -4272.03857421875,
          "id": "#energy landscape",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "7",
@@ -3016,6 +3193,7 @@
          "x": -1670.070556640625,
          "y": -696.8565673828125,
          "id": "Michał Stangel",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -3033,6 +3211,7 @@
          "x": -606.3148193359375,
          "y": 3151.28369140625,
          "id": "Dr. Hariloaos Tsikos",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -3050,6 +3229,7 @@
          "x": -224.03111267089844,
          "y": -2337.047607421875,
          "id": "Yasmina Yehia",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -3067,6 +3247,7 @@
          "x": -1895.644287109375,
          "y": -2191.489990234375,
          "id": "#urban landscapes",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -3084,6 +3265,7 @@
          "x": -1583.115478515625,
          "y": -3606.683349609375,
          "id": "Dr. Gregory Gan",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -3101,6 +3283,7 @@
          "x": -2545.602294921875,
          "y": -4107.408203125,
          "id": "Paula Leu Fernández Álvarez",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -3118,6 +3301,7 @@
          "x": 1575.2685546875,
          "y": -1188.279541015625,
          "id": "Dr. Katharina Richter",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "10",
@@ -3135,6 +3319,7 @@
          "x": -1610.6556396484375,
          "y": 6505.90673828125,
          "id": "Sustainable energy",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "5",
@@ -3152,6 +3337,7 @@
          "x": 4058.182373046875,
          "y": -774.7008056640625,
          "id": "Nnennaya J Nwali\n\nhttps://orcid.org/0009-0005-7195-1406",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -3169,6 +3355,7 @@
          "x": 1536.337646484375,
          "y": 7537.1533203125,
          "id": "#designer proteins",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "5",
@@ -3186,6 +3373,7 @@
          "x": -2585.643798828125,
          "y": -5848.86474609375,
          "id": "Clara McSweeney",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -3203,6 +3391,7 @@
          "x": 2641.357666015625,
          "y": -1200.05517578125,
          "id": "Prof. Dr. Azar Aliyev",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -3220,6 +3409,7 @@
          "x": -143.5279541015625,
          "y": -7025.21826171875,
          "id": "#territory",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "9",
@@ -3237,6 +3427,7 @@
          "x": 2572.890625,
          "y": -3909.06298828125,
          "id": "Psychology",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "7",
@@ -3254,6 +3445,7 @@
          "x": 2598.98583984375,
          "y": 904.8394165039062,
          "id": "#just finance",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -3271,6 +3463,7 @@
          "x": 3045.04345703125,
          "y": 5101.3779296875,
          "id": "Project Management",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "5",
@@ -3288,6 +3481,7 @@
          "x": -2821.413818359375,
          "y": -4000.201171875,
          "id": "#infrastructure",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -3305,6 +3499,7 @@
          "x": 4671.8896484375,
          "y": -2306.299072265625,
          "id": "Dr. Giada Giacomini",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -3322,6 +3517,7 @@
          "x": 2295.14208984375,
          "y": 1032.80810546875,
          "id": "Dan Dobre",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -3339,6 +3535,7 @@
          "x": 1803.140380859375,
          "y": 6082.3759765625,
          "id": "Oliver Wolf",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -3356,6 +3553,7 @@
          "x": -1101.287353515625,
          "y": -228.66758728027344,
          "id": "Gabriel Kolar",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -3373,6 +3571,7 @@
          "x": 385.8087463378906,
          "y": 7002.5283203125,
          "id": "#green hydrogen",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "5",
@@ -3390,6 +3589,7 @@
          "x": 2379.008544921875,
          "y": 1795.4171142578125,
          "id": "Dr. Sabina Hodžić",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -3407,6 +3607,7 @@
          "x": 2143.71044921875,
          "y": -3310.66845703125,
          "id": "Prof. Dr. Gundula Hübner",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "7",
@@ -3424,6 +3625,7 @@
          "x": 4149.90087890625,
          "y": -1409.6099853515625,
          "id": "#climate law",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -3441,6 +3643,7 @@
          "x": -2543.610107421875,
          "y": -2818.064208984375,
          "id": "German studies",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "9",
@@ -3458,6 +3661,7 @@
          "x": 1837.7406005859375,
          "y": -2568.977294921875,
          "id": "Anastasiya Ansteeg",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "11",
@@ -3475,6 +3679,7 @@
          "x": -3468.001953125,
          "y": -4478.0087890625,
          "id": "Lydia Unsworth\u2028\u2028\u2028\u2028",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "9",
@@ -3492,6 +3697,7 @@
          "x": -486.7714538574219,
          "y": -3318.908935546875,
          "id": "Michael Drobnik",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -3509,6 +3715,7 @@
          "x": -3990.043701171875,
          "y": -7261.6689453125,
          "id": "#ecosystems",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -3526,6 +3733,7 @@
          "x": -2080.09228515625,
          "y": -4822.4296875,
          "id": "Damjan Kokalevski",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -3543,6 +3751,7 @@
          "x": 2494.839111328125,
          "y": 2518.176513671875,
          "id": "Applied Research",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -3560,6 +3769,7 @@
          "x": 1207.8096923828125,
          "y": -2241.8291015625,
          "id": "Sonali Phadke",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "11",
@@ -3577,6 +3787,7 @@
          "x": 5279.22900390625,
          "y": -1126.4117431640625,
          "id": "Labour writer",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -3594,6 +3805,7 @@
          "x": 1055.9532470703125,
          "y": 523.4740600585938,
          "id": "Nazli Azergun",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "7",
@@ -3611,6 +3823,7 @@
          "x": 3287.267822265625,
          "y": 978.7128295898438,
          "id": "Prof. Dr. Peter Mulder",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -3628,6 +3841,7 @@
          "x": 2873.93505859375,
          "y": -1267.400390625,
          "id": "Prof. Dr. Dirk Hanschel",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -3645,6 +3859,7 @@
          "x": 694.7350463867188,
          "y": 1903.5068359375,
          "id": "Environmental sociology",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "4",
@@ -3662,6 +3877,7 @@
          "x": -1043.5103759765625,
          "y": -3793.275390625,
          "id": "Ethnology",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "9",
@@ -3679,6 +3895,7 @@
          "x": -1759.3782958984375,
          "y": -918.4839477539062,
          "id": "Jenny Steinhorst",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -3696,6 +3913,7 @@
          "x": -2138.04150390625,
          "y": 828.7530517578125,
          "id": "Williams Chibueze Munonye",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "10",
@@ -3713,6 +3931,7 @@
          "x": 3540.22119140625,
          "y": 2032.7093505859375,
          "id": "International relations",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -3730,6 +3949,7 @@
          "x": 512.79638671875,
          "y": -767.6885986328125,
          "id": "Gordon Walker",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "7",
@@ -3747,6 +3967,7 @@
          "x": 2505.28759765625,
          "y": -2419.573974609375,
          "id": "Duncan Liefferink",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -3764,6 +3985,7 @@
          "x": -3102.52734375,
          "y": -1488.7313232421875,
          "id": "Photographer",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -3781,6 +4003,7 @@
          "x": 4767.83203125,
          "y": -2439.24658203125,
          "id": "Dr. Gemma Beale",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -3798,6 +4021,7 @@
          "x": 2175.960205078125,
          "y": 6954.1826171875,
          "id": "#chloride-Ion",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "5",
@@ -3815,6 +4039,7 @@
          "x": 2766.80810546875,
          "y": -827.22314453125,
          "id": "#climate justice",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "11",
@@ -3832,6 +4057,7 @@
          "x": 4907.74267578125,
          "y": 1266.431884765625,
          "id": "Management",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -3849,6 +4075,7 @@
          "x": -2735.449951171875,
          "y": -5390.20361328125,
          "id": "Elly Vadseth",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -3866,6 +4093,7 @@
          "x": 183.1641082763672,
          "y": -3373.345458984375,
          "id": "Prof. Dr. Asta Vonderau",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "9",
@@ -3883,6 +4111,7 @@
          "x": 1211.8646240234375,
          "y": -1924.23388671875,
          "id": "Alexandra Lulache",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "10",
@@ -3900,6 +4129,7 @@
          "x": 1559.9349365234375,
          "y": 6798.33642578125,
          "id": "Dr. Jaime Andres Garcia Diosa",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -3917,6 +4147,7 @@
          "x": 368.71484375,
          "y": -1128.89697265625,
          "id": "Prof. Dr. Astrid Meier",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "10",
@@ -3934,6 +4165,7 @@
          "x": 1710.1695556640625,
          "y": -424.1814270019531,
          "id": "Dr. Anne Schiffer",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -3951,6 +4183,7 @@
          "x": 3453.028564453125,
          "y": 169.92449951171875,
          "id": "Charissa Leiwakabessy",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -3968,6 +4201,7 @@
          "x": -362.3312683105469,
          "y": 1769.4564208984375,
          "id": "#chemistry in transition",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "5",
@@ -3985,6 +4219,7 @@
          "x": 3079.798583984375,
          "y": -2445.584716796875,
          "id": "Dr Maurice Stierl",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -4002,6 +4237,7 @@
          "x": -2301.97607421875,
          "y": -3737.616455078125,
          "id": "Archaeology",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "9",
@@ -4019,6 +4255,7 @@
          "x": -1199.610595703125,
          "y": -2035.0595703125,
          "id": "Prof. Dr. Milica Topalovic",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -4036,6 +4273,7 @@
          "x": 3585.365234375,
          "y": -1569.0054931640625,
          "id": "Rosie Rowe",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -4053,6 +4291,7 @@
          "x": -2768.918701171875,
          "y": -773.3358764648438,
          "id": "A4 Just Transitions, Educational and Participation Opportunities for Children, Youth, and Adults",
+         "type": "structure",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -4070,6 +4309,7 @@
          "x": -10507.556640625,
          "y": 5667.8935546875,
          "id": "Johann Steudle",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "6",
@@ -4087,6 +4327,7 @@
          "x": 1346.8963623046875,
          "y": 47.33025360107422,
          "id": "Greco, Prof. Lidia",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -4104,6 +4345,7 @@
          "x": -2234.361572265625,
          "y": 1883.9075927734375,
          "id": "Social Geography",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -4121,6 +4363,7 @@
          "x": 1260.297607421875,
          "y": -1394.345458984375,
          "id": "Business",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "11",
@@ -4138,6 +4381,7 @@
          "x": 3816.110107421875,
          "y": -617.3416748046875,
          "id": "Peter D. Cameron",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -4155,6 +4399,7 @@
          "x": 2401.952392578125,
          "y": 1528.5753173828125,
          "id": "#political economy",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -4172,6 +4417,7 @@
          "x": -1166.1243896484375,
          "y": -362.776611328125,
          "id": "Dr. Stephanie Jahn",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -4189,6 +4435,7 @@
          "x": 2229.84912109375,
          "y": -3973.41064453125,
          "id": "Prof. Dr. Daniel Wrana",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "7",
@@ -4206,6 +4453,7 @@
          "x": 3519.078857421875,
          "y": 6229.8896484375,
          "id": "#silicon",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "5",
@@ -4223,6 +4471,7 @@
          "x": -859.9607543945312,
          "y": 3818.78125,
          "id": "B2: Petrology of Raw Materials",
+         "type": "structure",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -4240,6 +4489,7 @@
          "x": -3649.207763671875,
          "y": -5184.93505859375,
          "id": "Design",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -4257,6 +4507,7 @@
          "x": -107.3115463256836,
          "y": -4969.8271484375,
          "id": "#educational policy",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "9",
@@ -4274,6 +4525,7 @@
          "x": -1391.3717041015625,
          "y": 6209.19384765625,
          "id": "#waste management",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "4",
@@ -4291,6 +4543,7 @@
          "x": 1024.1396484375,
          "y": 986.5776977539062,
          "id": "Mark Elder\n\u2028",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "10",
@@ -4308,6 +4561,7 @@
          "x": -34.77986145019531,
          "y": -5590.19287109375,
          "id": "Prof. Dr. Patrick Vonderau",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -4325,6 +4579,7 @@
          "x": -1147.1802978515625,
          "y": 4282.9931640625,
          "id": "#petrology",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "4",
@@ -4342,6 +4597,7 @@
          "x": 1171.81298828125,
          "y": -1121.477294921875,
          "id": "Geography",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "11",
@@ -4359,6 +4615,7 @@
          "x": -1275.0980224609375,
          "y": -4306.55029296875,
          "id": "Dr. Muriel Wipfler",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "11",
@@ -4376,6 +4633,7 @@
          "x": 443.0950622558594,
          "y": -3574.613037109375,
          "id": "Francisco Martinez\u2028\u2028https://uclpress.co.uk/book/remains-of-the-soviet-past-in-estonia/",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "7",
@@ -4393,6 +4651,7 @@
          "x": -1186.726806640625,
          "y": -2478.341064453125,
          "id": "Brian Rosa\u2028EU Horizon Project\n\u2028https://www.bcnuej.org/brian-rosa/\u2028",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "9",
@@ -4410,6 +4669,7 @@
          "x": 1240.351318359375,
          "y": -637.6422119140625,
          "id": "Tobias Kalt",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "9",
@@ -4427,6 +4687,7 @@
          "x": 4466.6552734375,
          "y": -1050.8621826171875,
          "id": "Jim Young",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -4444,6 +4705,7 @@
          "x": 1602.997314453125,
          "y": 774.5279541015625,
          "id": "Environmental policy and governance",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "10",
@@ -4461,6 +4723,7 @@
          "x": -667.2297973632812,
          "y": 895.8031005859375,
          "id": "Dr. Susanne Hübner",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -4478,6 +4741,7 @@
          "x": -977.7515869140625,
          "y": 1225.751220703125,
          "id": "Transfer \u0026 Entrepreneurial",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -4495,6 +4759,7 @@
          "x": -10141.72265625,
          "y": 5471.451171875,
          "id": "#standardization",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "6",
@@ -4512,6 +4777,7 @@
          "x": 314.3331298828125,
          "y": 5687.955078125,
          "id": "Michael Bron",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -4529,6 +4795,7 @@
          "x": 1873.4296875,
          "y": -5211.8291015625,
          "id": "Computer science",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -4546,6 +4813,7 @@
          "x": -1038.0621337890625,
          "y": -3117.790771484375,
          "id": "Prof. Dr. Christoph Brumann",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "7",
@@ -4563,6 +4831,7 @@
          "x": 2537.53466796875,
          "y": 434.7633361816406,
          "id": "#labour environmentalism",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -4580,6 +4849,7 @@
          "x": 732.8285522460938,
          "y": -287.4061279296875,
          "id": "#sustainable development",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "10",
@@ -4597,6 +4867,7 @@
          "x": 2129.10693359375,
          "y": -1738.79443359375,
          "id": "#law and governance",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -4614,6 +4885,7 @@
          "x": -2336.616455078125,
          "y": 2729.54150390625,
          "id": "Environmental Resource Management",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "10",
@@ -4631,6 +4903,7 @@
          "x": 720.3080444335938,
          "y": 6514.7255859375,
          "id": "B3: Green Molecules Conversion (GMC)",
+         "type": "structure",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -4648,6 +4921,7 @@
          "x": 2268.64404296875,
          "y": -701.8966064453125,
          "id": "Law, politics, policy, governance, climate justice, earth system boundaries, water justice, global constitutionalism",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -4665,6 +4939,7 @@
          "x": 2562.821533203125,
          "y": -964.4170532226562,
          "id": "Reasat Faisal",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -4682,6 +4957,7 @@
          "x": 3709.51220703125,
          "y": -3446.762939453125,
          "id": "Prof. Dr. Martin Curley",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "11",
@@ -4699,6 +4975,7 @@
          "x": 522.097412109375,
          "y": 4813.3232421875,
          "id": "Dr. Zviadi Katcharava",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -4716,6 +4993,7 @@
          "x": 450.2222595214844,
          "y": 2143.833984375,
          "id": "Environmental sciences",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "4",
@@ -4733,6 +5011,7 @@
          "x": 831.870361328125,
          "y": 403.2856140136719,
          "id": "Larissa Kuroki",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "10",
@@ -4750,6 +5029,7 @@
          "x": 3395.93798828125,
          "y": 1392.287841796875,
          "id": "#energy policy",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -4767,6 +5047,7 @@
          "x": 926.64990234375,
          "y": -839.3765258789062,
          "id": "Prof. Dr. Kosyo Stoychev",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "11",
@@ -4784,6 +5065,7 @@
          "x": 3688.826904296875,
          "y": 1150.8125,
          "id": "Njabulo Kambule",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -4801,6 +5083,7 @@
          "x": 1124.715087890625,
          "y": -3741.888427734375,
          "id": "Galina Oustinova-Stjepanovic",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "7",
@@ -4818,6 +5101,7 @@
          "x": 3033.674072265625,
          "y": 1864.021240234375,
          "id": "Janeth Carolina Godoy",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -4835,6 +5119,7 @@
          "x": 866.6142578125,
          "y": -2331.4482421875,
          "id": "Nicholas Bainton\n\nnick.Bainton@anu.edu.au",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "7",
@@ -4852,6 +5137,7 @@
          "x": 536.21142578125,
          "y": -1196.1046142578125,
          "id": "Cultural history",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "10",
@@ -4869,6 +5155,7 @@
          "x": -470.8571472167969,
          "y": 1562.360107421875,
          "id": "Dr. Stefan Moellerherm",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -4886,6 +5173,7 @@
          "x": -323.6016845703125,
          "y": 2145.802978515625,
          "id": "Geology",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "4",
@@ -4903,6 +5191,7 @@
          "x": -3808.571533203125,
          "y": -6010.8251953125,
          "id": "Artistic research",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -4920,6 +5209,7 @@
          "x": 2322.8515625,
          "y": 6038.98876953125,
          "id": "B6: Batteries from Sustainable Materials",
+         "type": "structure",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -4937,6 +5227,7 @@
          "x": -94.11265563964844,
          "y": -439.6647644042969,
          "id": "#structural change",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -4954,6 +5245,7 @@
          "x": -247.81011962890625,
          "y": 3918.803466796875,
          "id": "Prof. Dr. Ralf Wehrspohn",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -4971,6 +5263,7 @@
          "x": 3197.384521484375,
          "y": 2097.508544921875,
          "id": "José Vega-Araújo",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -4988,6 +5281,7 @@
          "x": 65.45275115966797,
          "y": 2085.65673828125,
          "id": "Yvette Baninla",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -5005,6 +5299,7 @@
          "x": 3440.453857421875,
          "y": -160.61361694335938,
          "id": "A.P. Bueno Patin",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -5022,6 +5317,7 @@
          "x": -2095.92822265625,
          "y": 1100.8756103515625,
          "id": "Dr. Mathias Stein",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -5039,6 +5335,7 @@
          "x": -870.6463012695312,
          "y": -1454.659423828125,
          "id": "Lukas Petersohn",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -5056,6 +5353,7 @@
          "x": 2101.647705078125,
          "y": -869.9151000976562,
          "id": "Prof. Dr. Darryn Snell",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -5073,6 +5371,7 @@
          "x": 2475.634765625,
          "y": 6383.3193359375,
          "id": "#energy storage",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "5",
@@ -5090,6 +5389,7 @@
          "x": -1154.8140869140625,
          "y": 5743.6904296875,
          "id": "B7: Design of 3D-Printable Polymers Based on Regional Resources",
+        "type": "structure",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -5107,6 +5407,7 @@
          "x": 1679.17578125,
          "y": -3814.613037109375,
          "id": "#memory",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "7",
@@ -5124,6 +5425,7 @@
          "x": 2656.071044921875,
          "y": -4556.3271484375,
          "id": "Pedagogy",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "7",
@@ -5141,6 +5443,7 @@
          "x": 3589.53515625,
          "y": 2164.84814453125,
          "id": "Andrii Semeniuk",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -5158,6 +5461,7 @@
          "x": -4482.51416015625,
          "y": -3481.31298828125,
          "id": "#community education",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "7",
@@ -5175,6 +5479,7 @@
          "x": 474.4244079589844,
          "y": -2480.236328125,
          "id": "Architecture",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -5192,6 +5497,7 @@
          "x": -576.4140625,
          "y": -4735.1025390625,
          "id": "#speculative research",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -5209,6 +5515,7 @@
          "x": -111.04329681396484,
          "y": -2986.4140625,
          "id": "Michael Wollrath, M.Sc.",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "9",
@@ -5226,6 +5533,7 @@
          "x": 4191.0283203125,
          "y": 828.645263671875,
          "id": "Labour policy",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -5243,6 +5551,7 @@
          "x": -4749.681640625,
          "y": -2400.066650390625,
          "id": "#educan in rural areas",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "7",
@@ -5260,6 +5569,7 @@
          "x": -629.9741821289062,
          "y": -824.1317138671875,
          "id": "Dr. Beth Cloughton",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "10",
@@ -5277,6 +5587,7 @@
          "x": 2353.990966796875,
          "y": 2581.8271484375,
          "id": "International taxation and finance",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -5294,6 +5605,7 @@
          "x": 907.3427734375,
          "y": -2052.211181640625,
          "id": "Dr. Timm Sureau",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "7",
@@ -5311,6 +5623,7 @@
          "x": -783.8290405273438,
          "y": -1661.478759765625,
          "id": "Cheyenne Wolf",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -5328,6 +5641,7 @@
          "x": -67.7657241821289,
          "y": 669.6630249023438,
          "id": "International Development",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "10",
@@ -5345,6 +5659,7 @@
          "x": -608.6524658203125,
          "y": -3051.595458984375,
          "id": "Sourabh Phadke",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "10",
@@ -5362,6 +5677,7 @@
          "x": -3331.2890625,
          "y": -1111.9969482421875,
          "id": "Community development",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -5379,6 +5695,7 @@
          "x": 4090.43505859375,
          "y": -841.9403076171875,
          "id": "Prof. Dr. Victor Azubike",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -5396,6 +5713,7 @@
          "x": 836.3501586914062,
          "y": -2538.17041015625,
          "id": "#deindustrialization",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "9",
@@ -5413,6 +5731,7 @@
          "x": -1862.9368896484375,
          "y": -1669.3558349609375,
          "id": "Julia Ostertag",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -5430,6 +5749,7 @@
          "x": -10723.103515625,
          "y": 5717.0771484375,
          "id": "#open knowledge",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "6",
@@ -5447,6 +5767,7 @@
          "x": -1809.240478515625,
          "y": -4972.57421875,
          "id": "#multispecies justice",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -5464,6 +5785,7 @@
          "x": -2350.004638671875,
          "y": 1806.5938720703125,
          "id": "#mining",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -5481,6 +5803,7 @@
          "x": -1595.256103515625,
          "y": -2325.40966796875,
          "id": "Luke Stange",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -5498,6 +5821,7 @@
          "x": 445.049560546875,
          "y": -2857.37060546875,
          "id": "Persis Taraporevala",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "11",
@@ -5515,6 +5839,7 @@
          "x": -1609.3070068359375,
          "y": -201.65577697753906,
          "id": "Eleonore Freier",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -5532,6 +5857,7 @@
          "x": 4215.92529296875,
          "y": 2881.805908203125,
          "id": "Chafai Maissa",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -5549,6 +5875,7 @@
          "x": 1185.0201416015625,
          "y": 4893.14453125,
          "id": "Qian Xu",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -5566,6 +5893,7 @@
          "x": 235.41738891601562,
          "y": -5167.6708984375,
          "id": "Prof. Dr. Boris Michel",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "11",
@@ -5583,6 +5911,7 @@
          "x": -137.70301818847656,
          "y": 2027.231201171875,
          "id": "Prof. Alexandre Lima",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -5600,6 +5929,7 @@
          "x": 1546.351318359375,
          "y": 2785.889404296875,
          "id": "#critical minerals",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -5617,6 +5947,7 @@
          "x": 1248.1688232421875,
          "y": 1355.0699462890625,
          "id": "#renewables",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "5",
@@ -5634,6 +5965,7 @@
          "x": 1934.2984619140625,
          "y": -1274.6536865234375,
          "id": "Pancho Lewis",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "11",
@@ -5651,6 +5983,7 @@
          "x": 2415.08837890625,
          "y": -2184.595947265625,
          "id": "Harriet Bulkeley\n\nh.a.bulkeley@durham.ac.uk\u2028",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "11",
@@ -5668,6 +6001,7 @@
          "x": -212.61013793945312,
          "y": -3438.04736328125,
          "id": "#political ecology",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "9",
@@ -5685,6 +6019,7 @@
          "x": 2051.565673828125,
          "y": -3675.888427734375,
          "id": "#environmental education",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "7",
@@ -5702,6 +6037,7 @@
          "x": 2992.556396484375,
          "y": -1566.9578857421875,
          "id": "Theodore Tallent",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -5719,6 +6055,7 @@
          "x": -784.9174194335938,
          "y": -1523.47509765625,
          "id": "Dr. Jan Winkler",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -5736,6 +6073,7 @@
          "x": 3336.096923828125,
          "y": 8.39586067199707,
          "id": "Climate policy",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "11",
@@ -5753,6 +6091,7 @@
          "x": 1262.1142578125,
          "y": -3889.536376953125,
          "id": "C2: LegalTech Lab",
+         "type": "structure",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -5770,6 +6109,7 @@
          "x": 2806.0830078125,
          "y": 376.42462158203125,
          "id": "Dr. Kevin Le Merle",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -5787,6 +6127,7 @@
          "x": 2080.917724609375,
          "y": 1947.4163818359375,
          "id": "Rebecca Draeger",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -5804,6 +6145,7 @@
          "x": -3347.940185546875,
          "y": -7028.912109375,
          "id": "#artistic-research",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -5821,6 +6163,7 @@
          "x": 1177.69677734375,
          "y": -2688.649169921875,
          "id": "Jelena Vaciljevic",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "7",
@@ -5838,6 +6181,7 @@
          "x": -1318.962646484375,
          "y": -1277.1358642578125,
          "id": "Nikola Nölle",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -5855,6 +6199,7 @@
          "x": 1328.578369140625,
          "y": 1244.8660888671875,
          "id": "Gina Moran",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -5872,6 +6217,7 @@
          "x": 3261.66650390625,
          "y": -843.0125732421875,
          "id": "Law",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -5889,6 +6235,7 @@
          "x": 3067.609619140625,
          "y": 244.41497802734375,
          "id": "Dustin Mulvaney",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -5906,6 +6253,7 @@
          "x": 2048.62841796875,
          "y": 6128.0927734375,
          "id": "Sebastian Zimmermann",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -5923,6 +6271,7 @@
          "x": -2149.40478515625,
          "y": -2875.8095703125,
          "id": "Dr. Nora Küttel",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -5940,6 +6289,7 @@
          "x": -1586.7039794921875,
          "y": 5032.9853515625,
          "id": "#recycling",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "5",
@@ -5957,6 +6307,7 @@
          "x": 4245.1572265625,
          "y": -3973.788818359375,
          "id": "Innovation",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "11",
@@ -5974,6 +6325,7 @@
          "x": -184.83880615234375,
          "y": -2112.470703125,
          "id": "Neha Mungekar",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -5991,6 +6343,7 @@
          "x": -1632.6201171875,
          "y": -5232.3857421875,
          "id": "Literature Studies",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "9",
@@ -6008,6 +6361,7 @@
          "x": 7.955214977264404,
          "y": -6255.98046875,
          "id": "Media \u0026 CommunicationStudies",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -6025,6 +6379,7 @@
          "x": 1436.2200927734375,
          "y": 6842.2138671875,
          "id": "Martin Schütze",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -6042,6 +6397,7 @@
          "x": 4251.03564453125,
          "y": -1934.4989013671875,
          "id": "#demographic change",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -6059,6 +6415,7 @@
          "x": -1035.17724609375,
          "y": 1035.0966796875,
          "id": "Food system studies",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "11",
@@ -6076,6 +6433,7 @@
          "x": 1902.8853759765625,
          "y": 906.451904296875,
          "id": "Chemical Engineering",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -6093,6 +6451,7 @@
          "x": 3923.626953125,
          "y": 4431.6279296875,
          "id": "Engineering",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -6110,6 +6469,7 @@
          "x": 572.1172485351562,
          "y": -137.2318115234375,
          "id": "Felix Schiedlowski",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -6127,6 +6487,7 @@
          "x": -1232.8349609375,
          "y": -1085.515869140625,
          "id": "Marina Rottmann",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -6144,6 +6505,7 @@
          "x": 3870.75830078125,
          "y": -263.6769714355469,
          "id": "#housing",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -6161,6 +6523,7 @@
          "x": 969.9806518554688,
          "y": -1216.2825927734375,
          "id": "Rob Hales",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "11",
@@ -6178,6 +6541,7 @@
          "x": -437.84796142578125,
          "y": -1200.55224609375,
          "id": "Britta Acksel",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "7",
@@ -6195,6 +6559,7 @@
          "x": 1134.9329833984375,
          "y": -82.65937805175781,
          "id": "Suvi Huttunen",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "10",
@@ -6212,6 +6577,7 @@
          "x": 3621.18017578125,
          "y": -1154.575439453125,
          "id": "Professor Tracy-Lynn Field\u2028\u2028",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -6229,6 +6595,7 @@
          "x": -1385.113525390625,
          "y": -3249.053466796875,
          "id": "A6: Diversity in Socio-Ecological Transformations: Migration, Demographic Change, Environmental Conservation",
+         "type": "structure",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "9",
@@ -6246,6 +6613,7 @@
          "x": 4360.69384765625,
          "y": 3769.606201171875,
          "id": "Science and Engineering",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -6263,6 +6631,7 @@
          "x": -2727.04833984375,
          "y": -3012.668212890625,
          "id": "#anthropocene",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "9",
@@ -6280,6 +6649,7 @@
          "x": -1200.1173095703125,
          "y": -1892.38720703125,
          "id": "Hermine Bähr",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -6297,6 +6667,7 @@
          "x": -3057.648193359375,
          "y": -2040.6834716796875,
          "id": "Psychotherapy",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -6314,6 +6685,7 @@
          "x": 1299.94873046875,
          "y": 4829.91064453125,
          "id": "Dr. Leta Takele Menisa",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -6331,6 +6703,7 @@
          "x": 1116.897705078125,
          "y": 2843.504638671875,
          "id": "Dr. Marcin Baron",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -6348,6 +6721,7 @@
          "x": 1120.404541015625,
          "y": 5518.9111328125,
          "id": "#eco-innovation",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "5",
@@ -6365,6 +6739,7 @@
          "x": -1264.9454345703125,
          "y": 469.5455627441406,
          "id": "Korbinian Biller",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -6382,6 +6757,7 @@
          "x": 723.9264526367188,
          "y": 596.5475463867188,
          "id": "Moustapha Kamal Gueye\u2028\u2028https://ch.linkedin.com/in/moustapha-kamal-gueye-83988567",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -6399,6 +6775,7 @@
          "x": 3845.291748046875,
          "y": 3321.334716796875,
          "id": "Takako Mochida",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -6416,6 +6793,7 @@
          "x": -1634.6884765625,
          "y": 734.3709716796875,
          "id": "Dr. Steffi Formann",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -6433,6 +6811,7 @@
          "x": 2248.9970703125,
          "y": -326.7828674316406,
          "id": "Dr. Katrin Seidel",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -6450,6 +6829,7 @@
          "x": 4784.5380859375,
          "y": 2069.237548828125,
          "id": "Data Analysis",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -6467,6 +6847,7 @@
          "x": -1949.5341796875,
          "y": -4755.76904296875,
          "id": "Giulia Bruno",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -6484,6 +6865,7 @@
          "x": 1586.8216552734375,
          "y": 6177.564453125,
          "id": "#health care",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "5",
@@ -6501,6 +6883,7 @@
          "x": -3208.40673828125,
          "y": -5133.4716796875,
          "id": "Deborah Uhde",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -6518,6 +6901,7 @@
          "x": 798.4549560546875,
          "y": 5950.404296875,
          "id": "#electrocatalysis",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "5",
@@ -6535,6 +6919,7 @@
          "x": -421.17974853515625,
          "y": 4321.84765625,
          "id": "Experimental Physics",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "4",
@@ -6551,6 +6936,7 @@
          "label": "Felix Kolb",
          "x": 72.92700958251953,
          "y": -222.66278076171875,
+         "text": "Click here to display on uMap",
          "id": "Felix Kolb",
          "attributes": {
             "Node Color Multimode": "red",
@@ -6562,13 +6948,14 @@
             "Weighted Out-Degree": "3.0"
          },
          "color": "rgb(255,85,132)",
-         "size": 30.0
+         "size": 10.0
       },
       {
          "label": "Bernd Hopfengärtner",
          "x": -2588.847900390625,
          "y": -6366.4560546875,
          "id": "Bernd Hopfengärtner",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -6586,6 +6973,7 @@
          "x": -3372.495361328125,
          "y": -4660.15380859375,
          "id": "Jens Isensee",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -6603,6 +6991,7 @@
          "x": 3923.64013671875,
          "y": 444.7611999511719,
          "id": "Environmental studies",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -6620,6 +7009,7 @@
          "x": -740.3333740234375,
          "y": 6760.2978515625,
          "id": "#low-carbon",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "5",
@@ -6637,6 +7027,7 @@
          "x": 212.90989685058594,
          "y": 399.1349182128906,
          "id": "Sophie Altmiks",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -6654,6 +7045,7 @@
          "x": 1708.5,
          "y": -4049.368408203125,
          "id": "#education-policy",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "7",
@@ -6671,6 +7063,7 @@
          "x": -731.9384155273438,
          "y": 664.4408569335938,
          "id": "Riiika Aro",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "11",
@@ -6688,6 +7081,7 @@
          "x": 2111.40869140625,
          "y": 2746.255126953125,
          "id": "Biomedicine",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "5",
@@ -6705,6 +7099,7 @@
          "x": 3743.08837890625,
          "y": -1426.59912109375,
          "id": "Julia Taylor",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "11",
@@ -6722,6 +7117,7 @@
          "x": 1584.506591796875,
          "y": 465.1089782714844,
          "id": "Political economy",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "10",
@@ -6739,6 +7135,7 @@
          "x": -761.7141723632812,
          "y": -2899.23974609375,
          "id": "Pablo Aboleda\n\u2028",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "9",
@@ -6756,6 +7153,7 @@
          "x": -10590.6513671875,
          "y": 5577.298828125,
          "id": "Lucas Lasota",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "6",
@@ -6773,6 +7171,7 @@
          "x": 3651.301513671875,
          "y": -1792.28515625,
          "id": "Vilja Johansson\n\u2028",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -6790,6 +7189,7 @@
          "x": -2092.517822265625,
          "y": -137.2059326171875,
          "id": "Igor Tereshkov",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -6807,6 +7207,7 @@
          "x": 190.3819122314453,
          "y": 90.86976623535156,
          "id": "Prof. Dr. Ian Goldman",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "10",
@@ -6824,6 +7225,7 @@
          "x": -1697.681396484375,
          "y": -282.3198547363281,
          "id": "#continuing education",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -6841,6 +7243,7 @@
          "x": 1358.5487060546875,
          "y": 5903.142578125,
          "id": "Shixian Huang",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -6858,6 +7261,7 @@
          "x": 1721.038818359375,
          "y": 9059.240234375,
          "id": "B4: Designer proteins as bio-based binders",
+         "type": "structure",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -6875,6 +7279,7 @@
          "x": -1593.340087890625,
          "y": 364.98638916015625,
          "id": "Prof. Dr. Christopher Conrad",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -6892,6 +7297,7 @@
          "x": -1750.573486328125,
          "y": -2967.993408203125,
          "id": "Anatolijs Venovcevs\u2028\u2028",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "9",
@@ -6909,6 +7315,7 @@
          "x": 4.403550148010254,
          "y": -4104.359375,
          "id": "Anna Ott\n\nhttps://www.syke.fi/en/experts/anna-ott",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "7",
@@ -6926,6 +7333,7 @@
          "x": 4614.3701171875,
          "y": -2001.923828125,
          "id": "#labour law",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -6943,6 +7351,7 @@
          "x": 549.419189453125,
          "y": 1487.3052978515625,
          "id": "Prof. Dr. Ilkhom Soliev",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -6960,6 +7369,7 @@
          "x": 2237.3681640625,
          "y": 144.8594970703125,
          "id": "#Just Transition",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "9",
@@ -6977,6 +7387,7 @@
          "x": 1827.330078125,
          "y": 9425.3017578125,
          "id": "#bioadhesives",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "5",
@@ -6994,6 +7405,7 @@
          "x": 319.6212463378906,
          "y": 216.904052734375,
          "id": "#energy transition",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -7011,6 +7423,7 @@
          "x": -1120.798583984375,
          "y": -2975.253173828125,
          "id": "Kim Dittmann",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "9",
@@ -7028,6 +7441,7 @@
          "x": 3464.79931640625,
          "y": -983.690673828125,
          "id": "Prof. Dr. Geoffrey Wood",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -7045,6 +7459,7 @@
          "x": -204.43455505371094,
          "y": -1466.4766845703125,
          "id": "Marina Otero Verzier",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -7062,6 +7477,7 @@
          "x": -73.27564239501953,
          "y": -1829.962890625,
          "id": "#participation",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "11",
@@ -7079,6 +7495,7 @@
          "x": 1851.729736328125,
          "y": 2138.127197265625,
          "id": "Kerry A. Pettigrew",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -7096,6 +7513,7 @@
          "x": 1423.8189697265625,
          "y": -4219.57861328125,
          "id": "Jun.-Prof. Dr. Željana Tunić",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -7113,6 +7531,7 @@
          "x": -1991.6943359375,
          "y": -1093.3961181640625,
          "id": "Urban Planning",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -7130,6 +7549,7 @@
          "x": 2122.69384765625,
          "y": 3806.721923828125,
          "id": "Leen Govarts",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -7147,6 +7567,7 @@
          "x": 585.3759765625,
          "y": 463.8699645996094,
          "id": "Mark Goodale",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "7",
@@ -7164,6 +7585,7 @@
          "x": 200.62771606445312,
          "y": -2404.241943359375,
          "id": "A1: Structural Change \u0026 Participation",
+         "type": "structure",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -7181,6 +7603,7 @@
          "x": 382.6617126464844,
          "y": -1714.9957275390625,
          "id": "#environmental justice",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -7198,6 +7621,7 @@
          "x": 2738.413330078125,
          "y": -3438.983154296875,
          "id": "#public policy",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "11",
@@ -7215,6 +7639,7 @@
          "x": 2105.3974609375,
          "y": 6327.37451171875,
          "id": "#photovoltaics",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "5",
@@ -7232,6 +7657,7 @@
          "x": -453.3464050292969,
          "y": 3343.386962890625,
          "id": "#geochemistry-minerology",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "4",
@@ -7249,6 +7675,7 @@
          "x": -607.42041015625,
          "y": 2349.270751953125,
          "id": "PD Dr. Ralf Halama",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -7266,6 +7693,7 @@
          "x": -2516.221923828125,
          "y": -3575.581298828125,
          "id": "#ethnography",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "7",
@@ -7283,6 +7711,7 @@
          "x": 1240.1646728515625,
          "y": 185.37710571289062,
          "id": "Nevelina Pachova",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "10",
@@ -7300,6 +7729,7 @@
          "x": -261.5764465332031,
          "y": 828.909912109375,
          "id": "#post-mining landscapes",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -7317,6 +7747,7 @@
          "x": -2968.273193359375,
          "y": 251.4034423828125,
          "id": "Cultural theory",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "9",
@@ -7334,6 +7765,7 @@
          "x": 3149.5830078125,
          "y": 1120.7269287109375,
          "id": "Energy Studies",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -7351,6 +7783,7 @@
          "x": 1711.0062255859375,
          "y": -3377.782470703125,
          "id": "Dr. Galina Oustinova Stjepanovic",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "7",
@@ -7368,6 +7801,7 @@
          "x": -2372.598388671875,
          "y": -2505.78662109375,
          "id": "/",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -7385,6 +7819,7 @@
          "x": 4477.3974609375,
          "y": -561.6552734375,
          "id": "#international trade",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -7402,6 +7837,7 @@
          "x": -2712.77685546875,
          "y": 1625.7415771484375,
          "id": "Soil science",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "4",
@@ -7419,6 +7855,7 @@
          "x": 101.54067993164062,
          "y": -4845.9599609375,
          "id": "Political Social Science",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "7",
@@ -7436,6 +7873,7 @@
          "x": -1658.389404296875,
          "y": -3184.3603515625,
          "id": "Dr. Janine Hauer",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "9",
@@ -7453,6 +7891,7 @@
          "x": -484.7647399902344,
          "y": 17.840312957763672,
          "id": "#petromodernity",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "7",
@@ -7470,6 +7909,7 @@
          "x": 1529.7493896484375,
          "y": -2963.1181640625,
          "id": "#green ethics",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "7",
@@ -7487,6 +7927,7 @@
          "x": 1263.998291015625,
          "y": -2826.846435546875,
          "id": "Prof. Dr. Olaf Zenker",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -7504,6 +7945,7 @@
          "x": 3024.235595703125,
          "y": -3801.96484375,
          "id": "Tatjana Söding",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -7521,6 +7963,7 @@
          "x": 483.2976379394531,
          "y": 2721.059814453125,
          "id": "#sustainability",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "4",
@@ -7538,6 +7981,7 @@
          "x": -779.2340698242188,
          "y": -3727.371826171875,
          "id": "Architect",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "10",
@@ -7555,6 +7999,7 @@
          "x": 624.2263793945312,
          "y": 4689.01806640625,
          "id": "Philipp Sebastian Hilgeroth",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -7572,6 +8017,7 @@
          "x": 691.1345825195312,
          "y": -4382.55810546875,
          "id": "Prof. Dr. Harald Schwillus",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "9",
@@ -7589,6 +8035,7 @@
          "x": 170.6175537109375,
          "y": 6711.38623046875,
          "id": "Leonard Messing",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -7606,6 +8053,7 @@
          "x": -744.78466796875,
          "y": -603.180908203125,
          "id": "Prof. Dr. Jonathan Everts",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -7623,6 +8071,7 @@
          "x": -2496.3974609375,
          "y": -1818.16064453125,
          "id": "Dr. Mikkel Vindegg",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -7640,6 +8089,7 @@
          "x": -570.9210815429688,
          "y": 440.20294189453125,
          "id": "Economic geography",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -7657,6 +8107,7 @@
          "x": -4046.61181640625,
          "y": -4875.041015625,
          "id": "#architecture",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "9",
@@ -7674,6 +8125,7 @@
          "x": 1330.2373046875,
          "y": 6752.32080078125,
          "id": "Marco Bialas",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -7691,6 +8143,7 @@
          "x": -1397.3154296875,
          "y": -628.4888305664062,
          "id": "Tazim Jamal",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -7708,6 +8161,7 @@
          "x": 849.9776000976562,
          "y": -3447.122802734375,
          "id": "Prof. Dr. Yvonne Kleinmann",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -7725,6 +8179,7 @@
          "x": 3219.563232421875,
          "y": 5823.404296875,
          "id": "Richard Schalinski",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -7742,6 +8197,7 @@
          "x": -3316.077392578125,
          "y": -1877.90234375,
          "id": "Social anthropology",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -7759,6 +8215,7 @@
          "x": -15396.9736328125,
          "y": 16305.369140625,
          "id": "#journalism",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "12",
@@ -7776,6 +8233,7 @@
          "x": 1405.8275146484375,
          "y": -3646.087158203125,
          "id": "#mirgation",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "7",
@@ -7793,6 +8251,7 @@
          "x": -1436.646240234375,
          "y": -1595.0654296875,
          "id": "Jürgen Viet Anh Höpfel",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -7810,6 +8269,7 @@
          "x": -1847.378173828125,
          "y": 2210.536865234375,
          "id": "Anulisa Claire Okinyi",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "10",
@@ -7827,6 +8287,7 @@
          "x": 2769.87939453125,
          "y": -4376.048828125,
          "id": "#far-right populism",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -7844,6 +8305,7 @@
          "x": -435.9952697753906,
          "y": 252.28387451171875,
          "id": "#food security",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "10",
@@ -7861,6 +8323,7 @@
          "x": -995.4900512695312,
          "y": -5164.7890625,
          "id": "Education/Geography",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "9",
@@ -7878,6 +8341,7 @@
          "x": 4540.70849609375,
          "y": -1646.81103515625,
          "id": "Inequality Studies",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "11",
@@ -7895,6 +8359,7 @@
          "x": -2189.5830078125,
          "y": 1232.29736328125,
          "id": "Jakob Herrmann",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -7912,6 +8377,7 @@
          "x": 4629.6318359375,
          "y": -909.2935791015625,
          "id": "A7: Transregional Just Transition Governance: Socio-legal and Politico-economic Perspectives",
+        "type": "structure",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -7929,6 +8395,7 @@
          "x": 102.97147369384766,
          "y": -831.7906494140625,
          "id": "Prof. Ralph Horne",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "10",
@@ -7946,6 +8413,7 @@
          "x": -611.3824462890625,
          "y": -567.9833374023438,
          "id": "#knowledge transfer",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -7963,6 +8431,7 @@
          "x": -236.08587646484375,
          "y": -2707.700927734375,
          "id": "Technology Studies",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "9",
@@ -7980,6 +8449,7 @@
          "x": 1385.0712890625,
          "y": -1988.331298828125,
          "id": "Jakob Busse von Colbe, M.Sc.",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "11",
@@ -7997,6 +8467,7 @@
          "x": 2007.3232421875,
          "y": -2489.741943359375,
          "id": "#urban planning",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "11",
@@ -8014,6 +8485,7 @@
          "x": -3989.90673828125,
          "y": -5115.57373046875,
          "id": "Filmmaker",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -8031,6 +8503,7 @@
          "x": -2826.7041015625,
          "y": -5465.6552734375,
          "id": "Antonia Ablass",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -8048,6 +8521,7 @@
          "x": -558.6967163085938,
          "y": -1390.2353515625,
          "id": "Dr. Michiel Stapper",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -8065,6 +8539,7 @@
          "x": 532.9442749023438,
          "y": -3887.587890625,
          "id": "Georgia Könemann",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -8082,6 +8557,7 @@
          "x": -695.0938720703125,
          "y": -2798.05810546875,
          "id": "Education",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "7",
@@ -8099,6 +8575,7 @@
          "x": -1272.8583984375,
          "y": 800.2332763671875,
          "id": "Dr. Alexander Klose",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "7",
@@ -8116,6 +8593,7 @@
          "x": -863.5889892578125,
          "y": -4235.71435546875,
          "id": "Julia Kühl, M.A.",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "9",
@@ -8133,6 +8611,7 @@
          "x": -2867.131591796875,
          "y": 1140.11669921875,
          "id": "Sustainable Development",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "10",
@@ -8150,6 +8629,7 @@
          "x": 2024.226806640625,
          "y": 5995.78515625,
          "id": "Torsten Hölscher",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -8167,6 +8647,7 @@
          "x": 1722.496826171875,
          "y": -4896.4267578125,
          "id": "Slavic Studies",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -8184,6 +8665,7 @@
          "x": -784.4059448242188,
          "y": -5277.14111328125,
          "id": "#postmigration",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "9",
@@ -8201,6 +8683,7 @@
          "x": -236.28677368164062,
          "y": -898.2700805664062,
          "id": "Dr. Stefan Knauß",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -8218,6 +8701,7 @@
          "x": 2500.999267578125,
          "y": 2895.240478515625,
          "id": "Energy Systems",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -8235,6 +8719,7 @@
          "x": 1954.3284912109375,
          "y": -4148.97705078125,
          "id": "Paul Zschocke",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -8252,6 +8737,7 @@
          "x": 4046.61083984375,
          "y": -394.4659423828125,
          "id": "Shuai Han",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -8269,6 +8755,7 @@
          "x": 2178.07861328125,
          "y": -2861.205810546875,
          "id": "Julian Agyeman",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "11",
@@ -8286,6 +8773,7 @@
          "x": -2208.55224609375,
          "y": 1041.3812255859375,
          "id": "Soil Science",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "4",
@@ -8303,6 +8791,7 @@
          "x": 2110.18798828125,
          "y": -3103.624755859375,
          "id": "#migration",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -8320,6 +8809,7 @@
          "x": 2204.217041015625,
          "y": 5276.52392578125,
          "id": "#sustainable energy",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "5",
@@ -8337,6 +8827,7 @@
          "x": -792.6560668945312,
          "y": 3253.03857421875,
          "id": "Geochemistry-minerology",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "4",
@@ -8354,6 +8845,7 @@
          "x": 165.1759033203125,
          "y": 1967.8001708984375,
          "id": "Toni Eorola",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -8371,6 +8863,7 @@
          "x": -2925.841064453125,
          "y": -6488.5,
          "id": "Visual art",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -8388,6 +8881,7 @@
          "x": 2731.41162109375,
          "y": 1462.887451171875,
          "id": "Annika M. Weber",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -8405,6 +8899,7 @@
          "x": -1320.3756103515625,
          "y": -506.92083740234375,
          "id": "Dr. Claudia Langosch",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -8421,6 +8916,7 @@
          "label": "Poetry",
          "x": -4060.49169921875,
          "y": -4793.68310546875,
+         "type": "discipline",
          "id": "Poetry",
          "attributes": {
             "Node Color Multimode": "blue",
@@ -8439,6 +8935,7 @@
          "x": 2142.6796875,
          "y": 1457.7734375,
          "id": "Economics",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -8456,6 +8953,7 @@
          "x": -2040.6868896484375,
          "y": -3393.543701171875,
          "id": "Laura van Erp",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -8473,6 +8971,7 @@
          "x": -4469.58447265625,
          "y": -4658.8984375,
          "id": "Ethnomusicology",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "7",
@@ -8490,6 +8989,7 @@
          "x": -75.40045928955078,
          "y": -2259.38232421875,
          "id": "Dr. Zahar Koretsky",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "9",
@@ -8507,6 +9007,7 @@
          "x": 5100.00439453125,
          "y": -2380.282958984375,
          "id": "Environmental law",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -8524,6 +9025,7 @@
          "x": 3943.46728515625,
          "y": -3238.76513671875,
          "id": "Employement law",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -8541,6 +9043,7 @@
          "x": -10.297011375427246,
          "y": -955.975341796875,
          "id": "Dr. Larissa Fleischmann",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -8558,6 +9061,7 @@
          "x": 4057.3125,
          "y": -2360.88134765625,
          "id": "Anne Lally",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "2",
@@ -8575,6 +9079,7 @@
          "x": -706.0845336914062,
          "y": 2894.801513671875,
          "id": "Nico Kropp",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -8592,6 +9097,7 @@
          "x": 3070.796142578125,
          "y": -3002.698486328125,
          "id": "Environmental politics",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "2",
@@ -8609,6 +9115,7 @@
          "x": 225.4998321533203,
          "y": -2783.14599609375,
          "id": "Kilian Jörg",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -8626,6 +9133,7 @@
          "x": 4176.3818359375,
          "y": 1594.4788818359375,
          "id": "#energy security",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -8643,6 +9151,7 @@
          "x": -2967.986328125,
          "y": -2767.06591796875,
          "id": "Max Sher",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -8660,6 +9169,7 @@
          "x": -15457.580078125,
          "y": 16345.6640625,
          "id": "#archive",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "12",
@@ -8677,6 +9187,7 @@
          "x": 1468.821533203125,
          "y": 6709.41357421875,
          "id": "Dr. Constanze Zwies",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -8694,6 +9205,7 @@
          "x": -189.8400421142578,
          "y": -6365.6357421875,
          "id": "Dr. Andrei Vinogradov",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "9",
@@ -8711,6 +9223,7 @@
          "x": -451.8832092285156,
          "y": 2966.433837890625,
          "id": "Prof. Dr. Michael Stipp",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -8728,6 +9241,7 @@
          "x": 2142.16552734375,
          "y": 2358.30322265625,
          "id": "Abdedaim Battioui",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -8745,6 +9259,7 @@
          "x": 2891.90478515625,
          "y": 1965.74462890625,
          "id": "Tanja Fatur Sikic",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "3",
@@ -8762,6 +9277,7 @@
          "x": -2985.46533203125,
          "y": -1018.3507080078125,
          "id": "Elena Luciano Suastegui\u2028https://elenaluciano.com/\u2028\u2028Soil Health Clinic\nsoilclinic.cargo.site\n\u2028https://elenaluciano.com/contact-form\n2021 - Ongoing",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -8779,6 +9295,7 @@
          "x": 483.0406799316406,
          "y": -4032.506591796875,
          "id": "#public administration",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "1",
@@ -8796,6 +9313,7 @@
          "x": 916.9417114257812,
          "y": -3817.194580078125,
          "id": "Luzia Ferenschild",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "1",
@@ -8813,6 +9331,7 @@
          "x": -1442.858154296875,
          "y": -3358.387451171875,
          "id": "Imke Horstmannshoff",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
@@ -8830,6 +9349,7 @@
          "x": 297.64971923828125,
          "y": 4755.58984375,
          "id": "Mrunal Karle",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "4",
@@ -8847,6 +9367,7 @@
          "x": 1796.767822265625,
          "y": -1568.2705078125,
          "id": "Johanna Leino",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "11",
@@ -8864,6 +9385,7 @@
          "x": 832.6931762695312,
          "y": 4959.0380859375,
          "id": "Dr. Haojie Zhang",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -8881,6 +9403,7 @@
          "x": 4752.857421875,
          "y": 3266.92333984375,
          "id": "#statistical analysis",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "3",
@@ -8898,6 +9421,7 @@
          "x": -2459.650146484375,
          "y": -549.361572265625,
          "id": "Educational science",
+         "type": "discipline",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "8",
@@ -8915,6 +9439,7 @@
          "x": 343.8288269042969,
          "y": 5806.71826171875,
          "id": "Kevinjeorjios Pellumbi",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "5",
@@ -8932,6 +9457,7 @@
          "x": -3946.385498046875,
          "y": 2225.417236328125,
          "id": "#circular economy",
+         "type": "keywords",
          "attributes": {
             "Node Color Multimode": "blue",
             "Modularity Class": "4",
@@ -8949,6 +9475,7 @@
          "x": -1729.9114990234375,
          "y": 1388.1910400390625,
          "id": "Sanda Nicola",
+         "type": "scholar",
          "attributes": {
             "Node Color Multimode": "red",
             "Modularity Class": "8",
