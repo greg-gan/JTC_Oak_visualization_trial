@@ -1,6 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+  
 <head>
-  <style> body { margin: 0; } </style>
-
+  <meta charset="utf-8">
+  <title>JTC Visualization</title>
+  <style> body { margin: 0; } </style>  
+  <script src="script.js"></script>
   <script src="//cdn.jsdelivr.net/npm/3d-force-graph"></script>
   <!--<script src="../../dist/3d-force-graph.js"></script>-->
   
@@ -12,91 +17,91 @@
    
   <script type="module">
     import SpriteText from "https://esm.sh/three-spritetext";
-    import * as THREE from 'https://esm.sh/three';
+import * as THREE from 'https://esm.sh/three';
 
-    const elem = document.getElementById('3d-graph');
-    const imgs = ['discipline.png', 'hashtag.png', 'structure.png'];
-    const Graph = new ForceGraph3D(elem)  
-      .jsonUrl('../datasets/trial2.json')
-      .nodeLabel(node => `${node.user}: ${node.description}`)
-      .nodeResolution([12])
-      .onNodeClick(node => {
-          // Aim at node from outside it
-          const distance = 60;
-          const distRatio = 1 + distance/Math.hypot(node.x, node.y, node.z);
-          const newPos = node.x || node.y || node.z
-            ? { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }
-            : { x: 0, y: 0, z: distance }; // special case if node is in (0,0,0)
+const elem = document.getElementById('3d-graph');
+//const imgs = ['discipline.png', 'hashtag.png', 'structure.png'];
+const Graph = new ForceGraph3D(elem)
+   .jsonUrl('../datasets/trial2.json')
+   .nodeLabel(node => `${node.user}: ${node.description}`)
+   .nodeResolution([12])
+   .onNodeClick(node => {
+      // Aim at node from outside it
+      const distance = 60;
+      const distRatio = 1 + distance / Math.hypot(node.x, node.y, node.z);
+      const newPos = node.x || node.y || node.z
+         ? {x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio}
+         : {x: 0, y: 0, z: distance}; // special case if node is in (0,0,0)
 
       Graph.cameraPosition(
-            newPos, // new position
-            node, // lookAt ({ x, y, z })
-            3000  // ms transition duration
-          );
-       })
-      .nodeAutoColorBy('group')
-      .nodeThreeObjectExtend(true)
-      .nodeLabel('text') //scholar or #keyword or discipline
-      .nodeThreeObject(node => {
-         const textSprite = new SpriteText(node.label ?? node.id);
-      
-            if (node.type === "scholar"){       
-            const sprite = new SpriteText(node.id);
-            sprite.material.depthWrite = true; // make sprite background transparent
-            sprite.color = node.color;
-            sprite.textHeight = 4;
-            sprite.center.y = -1.2; // shift above node
-            return sprite;
-            }
-            else if (node.type === "discipline"){
+         newPos, // new position
+         node, // lookAt ({ x, y, z })
+         3000  // ms transition duration
+      );
+   })
+   .nodeAutoColorBy('group')
+   .nodeThreeObjectExtend(node =>{
+      return !(["discipline", "keywords", "structure"].includes(node.type));
+   })
+   .nodeLabel('text') //scholar or #keyword or discipline
+   .nodeThreeObject(node => {
+      const textSprite = new SpriteText(node.label ?? node.id);
+
+      if(node.type === "scholar"){
+         const sprite = new SpriteText(node.id);
+         sprite.material.depthWrite = true; // make sprite background transparent
+         sprite.color = node.color;
+         sprite.textHeight = 4;
+         sprite.center.y = -1.2; // shift above node
+         return sprite;
+      }
+      else if(node.type === "discipline"){
          textSprite.material.depthWrite = false; // make sprite background transparent
          textSprite.color = node.color;
          textSprite.center.y = 2.2; // shift above node
-            const imgTexture = new THREE.TextureLoader().load(`./imgs/discipline.png`);
-            imgTexture.colorSpace = THREE.SRGBColorSpace;
-            const material = new THREE.SpriteMaterial({map: imgTexture});
-            const sprite = new THREE.Sprite(material);
-            sprite.scale.set(14, 14);
-            textSprite.textHeight = 4/10; // needs refining
-            sprite.add(textSprite); // combine sprite with textSprite
-            node.color = 'rgba(0,0,0,0)'; // make the original sphere invisible
-            return sprite;
-          
-           } 
-           else if(node.type === "keywords"){
+         const imgTexture = new THREE.TextureLoader().load(`./imgs/discipline.png`);
+         imgTexture.colorSpace = THREE.SRGBColorSpace;
+         const material = new THREE.SpriteMaterial({map: imgTexture});
+         const sprite = new THREE.Sprite(material);
+         sprite.scale.set(14, 14);
+         textSprite.textHeight = 4 / 10; // needs refining
+         sprite.add(textSprite);
+         return sprite;
+      }
+      else if(node.type === "keywords"){
          textSprite.material.depthWrite = false; // make sprite background transparent
          textSprite.color = node.color;
          textSprite.center.y = 2.2; // shift above node
-            const imgTexture = new THREE.TextureLoader().load(`./imgs/hashtag.png`);
-            imgTexture.colorSpace = THREE.SRGBColorSpace;
-            const material = new THREE.SpriteMaterial({map: imgTexture});
-            const sprite = new THREE.Sprite(material);
-            sprite.scale.set(10,10);
-            textSprite.textHeight = 4/8; // needs refining
-            sprite.add(textSprite); // combine sprite with textSprite
-            node.color = 'rgba(0,0,0,0)'; // make the original sphere invisible
-            return sprite;
-          }
-           else if (node.type === "structure"){
+         const imgTexture = new THREE.TextureLoader().load(`./imgs/hashtag.png`);
+         imgTexture.colorSpace = THREE.SRGBColorSpace;
+         const material = new THREE.SpriteMaterial({map: imgTexture});
+         const sprite = new THREE.Sprite(material);
+         sprite.scale.set(10, 10);
+         textSprite.textHeight = 4 / 8; // needs refining
+         sprite.add(textSprite);
+         node.size = 0.1;
+         return sprite;
+      }
+      else if(node.type === "structure"){
          textSprite.material.depthWrite = false; // make sprite background transparent
          textSprite.color = node.color;
          textSprite.center.y = 2.2; // shift above node
-            const imgTexture = new THREE.TextureLoader().load(`./imgs/structure.png`);
-            imgTexture.colorSpace = THREE.SRGBColorSpace;
-            const material = new THREE.SpriteMaterial({map: imgTexture});
-            const sprite = new THREE.Sprite(material);
-            sprite.scale.set(14, 14);
-            textSprite.textHeight = 4/10; // needs refining
-            sprite.add(textSprite); // combine sprite with textSprite
-            node.opacity = 'rgba(0,0,0,0)'; // make the original sphere invisible
-            return sprite;
-         }
-         textSprite.textHeight = 4;
-         return textSprite;
-      });
-  
+         const imgTexture = new THREE.TextureLoader().load(`./imgs/structure.png`);
+         imgTexture.colorSpace = THREE.SRGBColorSpace;
+         const material = new THREE.SpriteMaterial({map: imgTexture});
+         const sprite = new THREE.Sprite(material);
+         sprite.scale.set(14, 14);
+         textSprite.textHeight = 4 / 10; // needs refining
+         sprite.add(textSprite);
+         return sprite;
+      }
+      textSprite.textHeight = 4;
+      return textSprite;
+   });
+
 
 Graph.d3Force('charge').strength(-120);
 
-  </script>
+   </script>
 </body>
+</html>
